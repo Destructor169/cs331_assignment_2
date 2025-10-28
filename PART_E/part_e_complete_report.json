@@ -1,0 +1,5653 @@
+{
+  "timestamp": "2025-10-26 20:56:45",
+  "part": "E - Recursive DNS Resolution with Cache Analysis",
+  "summary": {
+    "total_queries": 424,
+    "total_successful": 174,
+    "total_failed": 250,
+    "overall_success_rate_percent": 41.04,
+    "average_latency_ms": 1021.01,
+    "average_throughput_qps": 0.21,
+    "percent_resolved_from_cache": 0.0,
+    "resolved_from_cache_count": 0,
+    "resolved_from_network_count": 174
+  },
+  "hosts": [
+    {
+      "host": "h1",
+      "source_file": "/home/Aditya/Desktop/CN/urls_h1.txt",
+      "recursive_mode": true,
+      "total_queries": 106,
+      "successful": 51,
+      "failed": 55,
+      "success_rate_percent": 48.11,
+      "average_latency_ms": 911.29,
+      "throughput_queries_per_sec": 0.22,
+      "cache_statistics": {
+        "recursive_hits": 0,
+        "recursive_misses": 106,
+        "iterative_hits": 0,
+        "iterative_misses": 482,
+        "total_cache_hits": 0,
+        "total_queries": 106,
+        "cache_hit_rate_percent": 0.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 0,
+        "resolved_from_network": 51,
+        "total_resolved": 51,
+        "percent_resolved_from_cache": 0.0
+      },
+      "cache_hits_this_host": 0,
+      "results": [
+        {
+          "domain": "wpad",
+          "ip": null,
+          "latency_ms": 17931.98,
+          "status": "failed"
+        },
+        {
+          "domain": "tuhafhaberler.com",
+          "ip": null,
+          "latency_ms": 11790.61,
+          "status": "failed"
+        },
+        {
+          "domain": "rtsab.com",
+          "ip": null,
+          "latency_ms": 964.17,
+          "status": "failed"
+        },
+        {
+          "domain": "i-butterfly.ru",
+          "ip": null,
+          "latency_ms": 2553.52,
+          "status": "failed"
+        },
+        {
+          "domain": "datepanchang.com",
+          "ip": "13.75.66.141",
+          "latency_ms": 1073.92,
+          "status": "success"
+        },
+        {
+          "domain": "localhost.re",
+          "ip": null,
+          "latency_ms": 976.56,
+          "status": "failed"
+        },
+        {
+          "domain": "daehepharma.com",
+          "ip": null,
+          "latency_ms": 1174.65,
+          "status": "failed"
+        },
+        {
+          "domain": "ex-jw.org",
+          "ip": null,
+          "latency_ms": 875.31,
+          "status": "failed"
+        },
+        {
+          "domain": "us.tf",
+          "ip": null,
+          "latency_ms": 1012.2,
+          "status": "failed"
+        },
+        {
+          "domain": "informarexresistere.fr",
+          "ip": null,
+          "latency_ms": 1015.75,
+          "status": "failed"
+        },
+        {
+          "domain": "running-sigi.de",
+          "ip": null,
+          "latency_ms": 2376.53,
+          "status": "failed"
+        },
+        {
+          "domain": "buynowfromusa.com",
+          "ip": "35.223.118.1",
+          "latency_ms": 834.28,
+          "status": "success"
+        },
+        {
+          "domain": "pbprofile.com",
+          "ip": null,
+          "latency_ms": 12751.83,
+          "status": "failed"
+        },
+        {
+          "domain": "fini.net",
+          "ip": "198.57.192.137",
+          "latency_ms": 1162.22,
+          "status": "success"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "ip": null,
+          "latency_ms": 17832.77,
+          "status": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "ip": null,
+          "latency_ms": 17406.39,
+          "status": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "ip": null,
+          "latency_ms": 18132.06,
+          "status": "failed"
+        },
+        {
+          "domain": "globalpoliticalspectrum.com",
+          "ip": null,
+          "latency_ms": 11989.38,
+          "status": "failed"
+        },
+        {
+          "domain": "41latitude.com",
+          "ip": null,
+          "latency_ms": 760.55,
+          "status": "failed"
+        },
+        {
+          "domain": "zzxu.cn",
+          "ip": null,
+          "latency_ms": 2670.48,
+          "status": "failed"
+        },
+        {
+          "domain": "energybulbs.co.uk",
+          "ip": null,
+          "latency_ms": 1947.87,
+          "status": "failed"
+        },
+        {
+          "domain": "o-ov.com",
+          "ip": null,
+          "latency_ms": 1238.9,
+          "status": "failed"
+        },
+        {
+          "domain": "lozo.com",
+          "ip": "34.192.96.224",
+          "latency_ms": 643.25,
+          "status": "success"
+        },
+        {
+          "domain": "tottenhamhk.com",
+          "ip": null,
+          "latency_ms": 11846.06,
+          "status": "failed"
+        },
+        {
+          "domain": "newstetic.com",
+          "ip": "104.21.3.241",
+          "latency_ms": 714.08,
+          "status": "success"
+        },
+        {
+          "domain": "triggerfish.se",
+          "ip": "162.159.135.42",
+          "latency_ms": 1044.26,
+          "status": "success"
+        },
+        {
+          "domain": "reprosystems.ru",
+          "ip": null,
+          "latency_ms": 2495.45,
+          "status": "failed"
+        },
+        {
+          "domain": "interfloracentral.co.uk",
+          "ip": null,
+          "latency_ms": 1948.16,
+          "status": "failed"
+        },
+        {
+          "domain": "afairjudgement.com",
+          "ip": "172.67.178.132",
+          "latency_ms": 690.45,
+          "status": "success"
+        },
+        {
+          "domain": "owlcreek.com",
+          "ip": "205.178.189.129",
+          "latency_ms": 677.34,
+          "status": "success"
+        },
+        {
+          "domain": "radioterminal.ru",
+          "ip": "188.225.40.161",
+          "latency_ms": 1690.32,
+          "status": "success"
+        },
+        {
+          "domain": "junio.com",
+          "ip": "209.196.144.25",
+          "latency_ms": 1363.35,
+          "status": "success"
+        },
+        {
+          "domain": "ditrblog.com",
+          "ip": null,
+          "latency_ms": 12187.38,
+          "status": "failed"
+        },
+        {
+          "domain": "isilon",
+          "ip": null,
+          "latency_ms": 17673.31,
+          "status": "failed"
+        },
+        {
+          "domain": "alchemedialtd.com",
+          "ip": "68.66.224.29",
+          "latency_ms": 602.99,
+          "status": "success"
+        },
+        {
+          "domain": "portclydegeneralstore.com",
+          "ip": "198.185.159.144",
+          "latency_ms": 919.62,
+          "status": "success"
+        },
+        {
+          "domain": "alenpuaca.com",
+          "ip": "67.205.28.253",
+          "latency_ms": 1201.63,
+          "status": "success"
+        },
+        {
+          "domain": "dj-producer-j-mbargo.com",
+          "ip": null,
+          "latency_ms": 11879.76,
+          "status": "failed"
+        },
+        {
+          "domain": "iag-inc.com",
+          "ip": null,
+          "latency_ms": 18030.39,
+          "status": "failed"
+        },
+        {
+          "domain": "advertos.ru",
+          "ip": null,
+          "latency_ms": 2492.04,
+          "status": "failed"
+        },
+        {
+          "domain": "kh.ua",
+          "ip": "195.69.185.211",
+          "latency_ms": 747.99,
+          "status": "success"
+        },
+        {
+          "domain": "kennethehartman.com",
+          "ip": "192.0.78.24",
+          "latency_ms": 677.03,
+          "status": "success"
+        },
+        {
+          "domain": "hemcolubricants.com",
+          "ip": null,
+          "latency_ms": 12095.19,
+          "status": "failed"
+        },
+        {
+          "domain": "forpsi.net",
+          "ip": "85.255.6.237",
+          "latency_ms": 902.77,
+          "status": "success"
+        },
+        {
+          "domain": "memeblender.com",
+          "ip": "104.21.7.158",
+          "latency_ms": 671.94,
+          "status": "success"
+        },
+        {
+          "domain": "somode.com",
+          "ip": null,
+          "latency_ms": 13749.88,
+          "status": "failed"
+        },
+        {
+          "domain": "gamemob.com",
+          "ip": "3.33.130.190",
+          "latency_ms": 913.33,
+          "status": "success"
+        },
+        {
+          "domain": "monsterhomesecuritystore.com",
+          "ip": null,
+          "latency_ms": 11838.38,
+          "status": "failed"
+        },
+        {
+          "domain": "door2games.com",
+          "ip": "160.153.0.43",
+          "latency_ms": 994.75,
+          "status": "success"
+        },
+        {
+          "domain": "ondemandappliancerepair.com",
+          "ip": "74.208.236.102",
+          "latency_ms": 986.9,
+          "status": "success"
+        },
+        {
+          "domain": "gensee.com",
+          "ip": "211.150.89.25",
+          "latency_ms": 845.89,
+          "status": "success"
+        },
+        {
+          "domain": "caricsports.com",
+          "ip": "172.67.216.98",
+          "latency_ms": 752.62,
+          "status": "success"
+        },
+        {
+          "domain": "auqzzx.com",
+          "ip": null,
+          "latency_ms": 12370.2,
+          "status": "failed"
+        },
+        {
+          "domain": "toaskfuture.com",
+          "ip": "119.18.54.195",
+          "latency_ms": 721.29,
+          "status": "success"
+        },
+        {
+          "domain": "cetsi.fr",
+          "ip": "91.151.64.24",
+          "latency_ms": 1144.75,
+          "status": "success"
+        },
+        {
+          "domain": "probigbets.com",
+          "ip": null,
+          "latency_ms": 12337.56,
+          "status": "failed"
+        },
+        {
+          "domain": "bikesandtransit.com",
+          "ip": "192.0.78.24",
+          "latency_ms": 794.39,
+          "status": "success"
+        },
+        {
+          "domain": "aqvr.com",
+          "ip": "89.117.19.57",
+          "latency_ms": 1282.14,
+          "status": "success"
+        },
+        {
+          "domain": "niceinternetmoney.ru",
+          "ip": null,
+          "latency_ms": 2685.58,
+          "status": "failed"
+        },
+        {
+          "domain": "isatap",
+          "ip": null,
+          "latency_ms": 17635.67,
+          "status": "failed"
+        },
+        {
+          "domain": "chonvn.com",
+          "ip": null,
+          "latency_ms": 14406.96,
+          "status": "failed"
+        },
+        {
+          "domain": "eugenbotnar.com",
+          "ip": null,
+          "latency_ms": 12044.46,
+          "status": "failed"
+        },
+        {
+          "domain": "phi-pe.com",
+          "ip": null,
+          "latency_ms": 12970.73,
+          "status": "failed"
+        },
+        {
+          "domain": "chuamatsua.com",
+          "ip": null,
+          "latency_ms": 1794.04,
+          "status": "failed"
+        },
+        {
+          "domain": "pictures-thailand.com",
+          "ip": "66.96.149.1",
+          "latency_ms": 1129.14,
+          "status": "success"
+        },
+        {
+          "domain": "2brightsparks.co.uk",
+          "ip": null,
+          "latency_ms": 1988.08,
+          "status": "failed"
+        },
+        {
+          "domain": "astrumonline.ru",
+          "ip": null,
+          "latency_ms": 2529.36,
+          "status": "failed"
+        },
+        {
+          "domain": "blueridgelife.com",
+          "ip": "192.124.249.6",
+          "latency_ms": 1005.36,
+          "status": "success"
+        },
+        {
+          "domain": "mwzip.com",
+          "ip": "104.21.20.205",
+          "latency_ms": 676.8,
+          "status": "success"
+        },
+        {
+          "domain": "gusbi.com",
+          "ip": "185.145.195.19",
+          "latency_ms": 1044.18,
+          "status": "success"
+        },
+        {
+          "domain": "simternet.com",
+          "ip": "15.197.225.128",
+          "latency_ms": 981.19,
+          "status": "success"
+        },
+        {
+          "domain": "khsm.ru",
+          "ip": null,
+          "latency_ms": 2550.31,
+          "status": "failed"
+        },
+        {
+          "domain": "livelinks.com",
+          "ip": "108.158.61.89",
+          "latency_ms": 849.77,
+          "status": "success"
+        },
+        {
+          "domain": "jantv.in",
+          "ip": null,
+          "latency_ms": 611.32,
+          "status": "failed"
+        },
+        {
+          "domain": "hornil.com",
+          "ip": "183.111.138.226",
+          "latency_ms": 933.63,
+          "status": "success"
+        },
+        {
+          "domain": "7dfps.com",
+          "ip": "104.21.9.172",
+          "latency_ms": 759.75,
+          "status": "success"
+        },
+        {
+          "domain": "luckypuppygames.com",
+          "ip": "172.237.146.8",
+          "latency_ms": 1075.44,
+          "status": "success"
+        },
+        {
+          "domain": "b-matrix.com",
+          "ip": "137.135.108.176",
+          "latency_ms": 915.75,
+          "status": "success"
+        },
+        {
+          "domain": "coutureauchocolat.com",
+          "ip": null,
+          "latency_ms": 12016.28,
+          "status": "failed"
+        },
+        {
+          "domain": "afresnohomeinspector.com",
+          "ip": null,
+          "latency_ms": 11929.78,
+          "status": "failed"
+        },
+        {
+          "domain": "pieceinch.com",
+          "ip": "104.21.66.64",
+          "latency_ms": 812.74,
+          "status": "success"
+        },
+        {
+          "domain": "australiatradenow.com",
+          "ip": "52.221.30.142",
+          "latency_ms": 798.56,
+          "status": "success"
+        },
+        {
+          "domain": "diamondknot.com",
+          "ip": "198.185.159.144",
+          "latency_ms": 1179.25,
+          "status": "success"
+        },
+        {
+          "domain": "amorefieldlife.com",
+          "ip": "162.241.226.124",
+          "latency_ms": 808.94,
+          "status": "success"
+        },
+        {
+          "domain": "sheltercoveinn.com",
+          "ip": null,
+          "latency_ms": 3597.28,
+          "status": "failed"
+        },
+        {
+          "domain": "wrestlingfanssuck.com",
+          "ip": "62.149.128.40",
+          "latency_ms": 937.15,
+          "status": "success"
+        },
+        {
+          "domain": "sdccdonline.net",
+          "ip": null,
+          "latency_ms": 10673.64,
+          "status": "failed"
+        },
+        {
+          "domain": "autofirenze.biz",
+          "ip": null,
+          "latency_ms": 1343.29,
+          "status": "failed"
+        },
+        {
+          "domain": "house-sg.com",
+          "ip": null,
+          "latency_ms": 11813.77,
+          "status": "failed"
+        },
+        {
+          "domain": "camcard.com",
+          "ip": "184.169.209.203",
+          "latency_ms": 692.29,
+          "status": "success"
+        },
+        {
+          "domain": "ppsuika.ac.id",
+          "ip": null,
+          "latency_ms": 1651.39,
+          "status": "failed"
+        },
+        {
+          "domain": "healthnews4you.com",
+          "ip": "3.33.130.190",
+          "latency_ms": 978.92,
+          "status": "success"
+        },
+        {
+          "domain": "stunninggirls.net",
+          "ip": "34.95.33.229",
+          "latency_ms": 687.14,
+          "status": "success"
+        },
+        {
+          "domain": "kathihill.com",
+          "ip": "159.65.187.116",
+          "latency_ms": 790.17,
+          "status": "success"
+        },
+        {
+          "domain": "linksplash.info",
+          "ip": null,
+          "latency_ms": 1203.99,
+          "status": "failed"
+        },
+        {
+          "domain": "group14eng.com",
+          "ip": "192.124.249.164",
+          "latency_ms": 948.0,
+          "status": "success"
+        },
+        {
+          "domain": "shqqaa.com",
+          "ip": "172.67.134.61",
+          "latency_ms": 718.27,
+          "status": "success"
+        },
+        {
+          "domain": "mesites.co.za",
+          "ip": null,
+          "latency_ms": 3135.69,
+          "status": "failed"
+        },
+        {
+          "domain": "progettogiovani.pd.it",
+          "ip": "185.213.115.40",
+          "latency_ms": 988.82,
+          "status": "success"
+        },
+        {
+          "domain": "uahoy.net",
+          "ip": null,
+          "latency_ms": 11935.66,
+          "status": "failed"
+        },
+        {
+          "domain": "retiragroup.com",
+          "ip": null,
+          "latency_ms": 11805.24,
+          "status": "failed"
+        },
+        {
+          "domain": "effexdjs.com",
+          "ip": null,
+          "latency_ms": 11814.78,
+          "status": "failed"
+        },
+        {
+          "domain": "mysearch-online.com",
+          "ip": null,
+          "latency_ms": 11788.04,
+          "status": "failed"
+        },
+        {
+          "domain": "asadventure.com",
+          "ip": "143.204.55.46",
+          "latency_ms": 659.94,
+          "status": "success"
+        },
+        {
+          "domain": "michiganbulb.com",
+          "ip": "208.27.142.168",
+          "latency_ms": 755.31,
+          "status": "success"
+        },
+        {
+          "domain": "shivalikprints.com",
+          "ip": "162.215.11.92",
+          "latency_ms": 1295.77,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "wpad",
+          "servers_contacted": 23,
+          "latency_ms": 17931.95,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "tuhafhaberler.com",
+          "servers_contacted": 12,
+          "latency_ms": 11790.58,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "rtsab.com",
+          "servers_contacted": 6,
+          "latency_ms": 964.15,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "i-butterfly.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2553.5,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "datepanchang.com",
+          "servers_contacted": 6,
+          "latency_ms": 1073.89,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "localhost.re",
+          "servers_contacted": 8,
+          "latency_ms": 976.54,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "daehepharma.com",
+          "servers_contacted": 8,
+          "latency_ms": 1174.63,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ex-jw.org",
+          "servers_contacted": 14,
+          "latency_ms": 875.29,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "us.tf",
+          "servers_contacted": 8,
+          "latency_ms": 1012.17,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "informarexresistere.fr",
+          "servers_contacted": 8,
+          "latency_ms": 1015.74,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "running-sigi.de",
+          "servers_contacted": 14,
+          "latency_ms": 2376.51,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "buynowfromusa.com",
+          "servers_contacted": 6,
+          "latency_ms": 834.25,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "pbprofile.com",
+          "servers_contacted": 12,
+          "latency_ms": 12751.8,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "fini.net",
+          "servers_contacted": 6,
+          "latency_ms": 1162.16,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "servers_contacted": 23,
+          "latency_ms": 17832.75,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "servers_contacted": 23,
+          "latency_ms": 17406.37,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "servers_contacted": 23,
+          "latency_ms": 18132.04,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "globalpoliticalspectrum.com",
+          "servers_contacted": 12,
+          "latency_ms": 11989.36,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "41latitude.com",
+          "servers_contacted": 8,
+          "latency_ms": 760.53,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "zzxu.cn",
+          "servers_contacted": 14,
+          "latency_ms": 2670.46,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "energybulbs.co.uk",
+          "servers_contacted": 18,
+          "latency_ms": 1947.85,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "o-ov.com",
+          "servers_contacted": 8,
+          "latency_ms": 1238.88,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "lozo.com",
+          "servers_contacted": 6,
+          "latency_ms": 643.22,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "tottenhamhk.com",
+          "servers_contacted": 12,
+          "latency_ms": 11846.04,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "newstetic.com",
+          "servers_contacted": 6,
+          "latency_ms": 714.06,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "triggerfish.se",
+          "servers_contacted": 6,
+          "latency_ms": 1044.25,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "reprosystems.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2495.43,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "interfloracentral.co.uk",
+          "servers_contacted": 16,
+          "latency_ms": 1948.15,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "afairjudgement.com",
+          "servers_contacted": 6,
+          "latency_ms": 690.44,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "owlcreek.com",
+          "servers_contacted": 6,
+          "latency_ms": 677.33,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "radioterminal.ru",
+          "servers_contacted": 8,
+          "latency_ms": 1690.31,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "junio.com",
+          "servers_contacted": 6,
+          "latency_ms": 1363.33,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ditrblog.com",
+          "servers_contacted": 12,
+          "latency_ms": 12187.36,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "isilon",
+          "servers_contacted": 23,
+          "latency_ms": 17673.3,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "alchemedialtd.com",
+          "servers_contacted": 6,
+          "latency_ms": 602.97,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "portclydegeneralstore.com",
+          "servers_contacted": 6,
+          "latency_ms": 919.6,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "alenpuaca.com",
+          "servers_contacted": 6,
+          "latency_ms": 1201.61,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "dj-producer-j-mbargo.com",
+          "servers_contacted": 12,
+          "latency_ms": 11879.74,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "iag-inc.com",
+          "servers_contacted": 12,
+          "latency_ms": 18030.38,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "advertos.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2492.02,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "kh.ua",
+          "servers_contacted": 6,
+          "latency_ms": 747.96,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "kennethehartman.com",
+          "servers_contacted": 6,
+          "latency_ms": 676.98,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "hemcolubricants.com",
+          "servers_contacted": 12,
+          "latency_ms": 12095.18,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "forpsi.net",
+          "servers_contacted": 6,
+          "latency_ms": 902.75,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "memeblender.com",
+          "servers_contacted": 6,
+          "latency_ms": 671.92,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "somode.com",
+          "servers_contacted": 12,
+          "latency_ms": 13749.86,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gamemob.com",
+          "servers_contacted": 6,
+          "latency_ms": 913.3,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "monsterhomesecuritystore.com",
+          "servers_contacted": 12,
+          "latency_ms": 11838.36,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "door2games.com",
+          "servers_contacted": 6,
+          "latency_ms": 994.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ondemandappliancerepair.com",
+          "servers_contacted": 6,
+          "latency_ms": 986.89,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "gensee.com",
+          "servers_contacted": 6,
+          "latency_ms": 845.87,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "caricsports.com",
+          "servers_contacted": 6,
+          "latency_ms": 752.61,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "auqzzx.com",
+          "servers_contacted": 12,
+          "latency_ms": 12370.18,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "toaskfuture.com",
+          "servers_contacted": 6,
+          "latency_ms": 721.27,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "cetsi.fr",
+          "servers_contacted": 6,
+          "latency_ms": 1144.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "probigbets.com",
+          "servers_contacted": 12,
+          "latency_ms": 12337.54,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "bikesandtransit.com",
+          "servers_contacted": 6,
+          "latency_ms": 794.38,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "aqvr.com",
+          "servers_contacted": 6,
+          "latency_ms": 1282.13,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "niceinternetmoney.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2685.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "isatap",
+          "servers_contacted": 23,
+          "latency_ms": 17635.65,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "chonvn.com",
+          "servers_contacted": 12,
+          "latency_ms": 14406.92,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "eugenbotnar.com",
+          "servers_contacted": 12,
+          "latency_ms": 12044.44,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "phi-pe.com",
+          "servers_contacted": 12,
+          "latency_ms": 12970.72,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "chuamatsua.com",
+          "servers_contacted": 16,
+          "latency_ms": 1794.02,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "pictures-thailand.com",
+          "servers_contacted": 6,
+          "latency_ms": 1129.11,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "2brightsparks.co.uk",
+          "servers_contacted": 16,
+          "latency_ms": 1988.06,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "astrumonline.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2529.33,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "blueridgelife.com",
+          "servers_contacted": 6,
+          "latency_ms": 1005.34,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "mwzip.com",
+          "servers_contacted": 6,
+          "latency_ms": 676.78,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "gusbi.com",
+          "servers_contacted": 6,
+          "latency_ms": 1044.17,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "simternet.com",
+          "servers_contacted": 6,
+          "latency_ms": 981.17,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "khsm.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2550.3,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "livelinks.com",
+          "servers_contacted": 6,
+          "latency_ms": 849.76,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "jantv.in",
+          "servers_contacted": 10,
+          "latency_ms": 611.31,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "hornil.com",
+          "servers_contacted": 6,
+          "latency_ms": 933.62,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "7dfps.com",
+          "servers_contacted": 6,
+          "latency_ms": 759.74,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "luckypuppygames.com",
+          "servers_contacted": 6,
+          "latency_ms": 1075.43,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "b-matrix.com",
+          "servers_contacted": 6,
+          "latency_ms": 915.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "coutureauchocolat.com",
+          "servers_contacted": 12,
+          "latency_ms": 12016.25,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "afresnohomeinspector.com",
+          "servers_contacted": 12,
+          "latency_ms": 11929.76,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "pieceinch.com",
+          "servers_contacted": 6,
+          "latency_ms": 812.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "australiatradenow.com",
+          "servers_contacted": 6,
+          "latency_ms": 798.55,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "diamondknot.com",
+          "servers_contacted": 6,
+          "latency_ms": 1179.24,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "amorefieldlife.com",
+          "servers_contacted": 6,
+          "latency_ms": 808.93,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "sheltercoveinn.com",
+          "servers_contacted": 14,
+          "latency_ms": 3597.27,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "wrestlingfanssuck.com",
+          "servers_contacted": 6,
+          "latency_ms": 937.14,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "sdccdonline.net",
+          "servers_contacted": 6,
+          "latency_ms": 10673.63,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "autofirenze.biz",
+          "servers_contacted": 18,
+          "latency_ms": 1343.28,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "house-sg.com",
+          "servers_contacted": 12,
+          "latency_ms": 11813.76,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "camcard.com",
+          "servers_contacted": 6,
+          "latency_ms": 692.28,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ppsuika.ac.id",
+          "servers_contacted": 12,
+          "latency_ms": 1651.38,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "healthnews4you.com",
+          "servers_contacted": 6,
+          "latency_ms": 978.9,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "stunninggirls.net",
+          "servers_contacted": 6,
+          "latency_ms": 687.13,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "kathihill.com",
+          "servers_contacted": 6,
+          "latency_ms": 790.16,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "linksplash.info",
+          "servers_contacted": 14,
+          "latency_ms": 1203.98,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "group14eng.com",
+          "servers_contacted": 6,
+          "latency_ms": 947.98,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "shqqaa.com",
+          "servers_contacted": 6,
+          "latency_ms": 718.26,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "mesites.co.za",
+          "servers_contacted": 10,
+          "latency_ms": 3135.67,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "progettogiovani.pd.it",
+          "servers_contacted": 6,
+          "latency_ms": 988.8,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "uahoy.net",
+          "servers_contacted": 12,
+          "latency_ms": 11935.65,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "retiragroup.com",
+          "servers_contacted": 12,
+          "latency_ms": 11805.23,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "effexdjs.com",
+          "servers_contacted": 12,
+          "latency_ms": 11814.76,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mysearch-online.com",
+          "servers_contacted": 12,
+          "latency_ms": 11788.01,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "asadventure.com",
+          "servers_contacted": 6,
+          "latency_ms": 659.93,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "michiganbulb.com",
+          "servers_contacted": 6,
+          "latency_ms": 755.29,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "shivalikprints.com",
+          "servers_contacted": 6,
+          "latency_ms": 1295.76,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        }
+      ]
+    },
+    {
+      "host": "h2",
+      "source_file": "/home/Aditya/Desktop/CN/urls_h2.txt",
+      "recursive_mode": true,
+      "total_queries": 106,
+      "successful": 40,
+      "failed": 66,
+      "success_rate_percent": 37.74,
+      "average_latency_ms": 1182.42,
+      "throughput_queries_per_sec": 0.2,
+      "cache_statistics": {
+        "recursive_hits": 0,
+        "recursive_misses": 212,
+        "iterative_hits": 0,
+        "iterative_misses": 1011,
+        "total_cache_hits": 0,
+        "total_queries": 212,
+        "cache_hit_rate_percent": 0.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 0,
+        "resolved_from_network": 91,
+        "total_resolved": 91,
+        "percent_resolved_from_cache": 0.0
+      },
+      "cache_hits_this_host": 0,
+      "results": [
+        {
+          "domain": "wpad",
+          "ip": null,
+          "latency_ms": 17346.41,
+          "status": "failed"
+        },
+        {
+          "domain": "likeminded.ca",
+          "ip": "198.100.154.154",
+          "latency_ms": 1164.36,
+          "status": "success"
+        },
+        {
+          "domain": "alltransport.ru",
+          "ip": "141.8.192.214",
+          "latency_ms": 1147.5,
+          "status": "success"
+        },
+        {
+          "domain": "brown.edu",
+          "ip": "128.148.252.151",
+          "latency_ms": 6446.14,
+          "status": "success"
+        },
+        {
+          "domain": "fauzanalfi.com",
+          "ip": null,
+          "latency_ms": 1271.28,
+          "status": "failed"
+        },
+        {
+          "domain": "supreetsethi.net",
+          "ip": null,
+          "latency_ms": 11783.07,
+          "status": "failed"
+        },
+        {
+          "domain": "gucenmez.com",
+          "ip": "172.67.149.173",
+          "latency_ms": 738.05,
+          "status": "success"
+        },
+        {
+          "domain": "seedy.dk",
+          "ip": null,
+          "latency_ms": 2211.59,
+          "status": "failed"
+        },
+        {
+          "domain": "51cdngo.com",
+          "ip": null,
+          "latency_ms": 11749.66,
+          "status": "failed"
+        },
+        {
+          "domain": "simple-health-reports.com",
+          "ip": null,
+          "latency_ms": 11713.0,
+          "status": "failed"
+        },
+        {
+          "domain": "hivelocitymedia.com",
+          "ip": "104.21.1.224",
+          "latency_ms": 666.43,
+          "status": "success"
+        },
+        {
+          "domain": "jabeye.org",
+          "ip": null,
+          "latency_ms": 1001.42,
+          "status": "failed"
+        },
+        {
+          "domain": "ticketbis.com",
+          "ip": null,
+          "latency_ms": 2020.68,
+          "status": "failed"
+        },
+        {
+          "domain": "cellularfactory.com",
+          "ip": "208.91.197.27",
+          "latency_ms": 715.84,
+          "status": "success"
+        },
+        {
+          "domain": "tsksv.ru",
+          "ip": "91.199.149.117",
+          "latency_ms": 1162.74,
+          "status": "success"
+        },
+        {
+          "domain": "gaybodyblog.com",
+          "ip": "148.72.167.158",
+          "latency_ms": 722.53,
+          "status": "success"
+        },
+        {
+          "domain": "datadikdki.net",
+          "ip": null,
+          "latency_ms": 11897.74,
+          "status": "failed"
+        },
+        {
+          "domain": "mumphi.de",
+          "ip": null,
+          "latency_ms": 2636.77,
+          "status": "failed"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "ip": null,
+          "latency_ms": 17443.02,
+          "status": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "ip": null,
+          "latency_ms": 17323.12,
+          "status": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "ip": null,
+          "latency_ms": 17297.58,
+          "status": "failed"
+        },
+        {
+          "domain": "brfone.com",
+          "ip": "54.243.117.197",
+          "latency_ms": 1131.04,
+          "status": "success"
+        },
+        {
+          "domain": "newpages2u.com",
+          "ip": null,
+          "latency_ms": 11751.54,
+          "status": "failed"
+        },
+        {
+          "domain": "bigjournalism.com",
+          "ip": "104.21.75.65",
+          "latency_ms": 683.26,
+          "status": "success"
+        },
+        {
+          "domain": "congsoxanh.com",
+          "ip": "104.21.64.129",
+          "latency_ms": 721.66,
+          "status": "success"
+        },
+        {
+          "domain": "visualtap.com",
+          "ip": "52.20.84.62",
+          "latency_ms": 1146.43,
+          "status": "success"
+        },
+        {
+          "domain": "oberoncompany.com",
+          "ip": "104.21.68.213",
+          "latency_ms": 725.87,
+          "status": "success"
+        },
+        {
+          "domain": "consejodentistas.org",
+          "ip": null,
+          "latency_ms": 1002.51,
+          "status": "failed"
+        },
+        {
+          "domain": "k-dsl.de",
+          "ip": null,
+          "latency_ms": 7425.73,
+          "status": "failed"
+        },
+        {
+          "domain": "asip.es",
+          "ip": null,
+          "latency_ms": 1261.38,
+          "status": "failed"
+        },
+        {
+          "domain": "androgyn.org",
+          "ip": "217.160.0.127",
+          "latency_ms": 851.35,
+          "status": "success"
+        },
+        {
+          "domain": "panaceadream.com",
+          "ip": null,
+          "latency_ms": 11862.95,
+          "status": "failed"
+        },
+        {
+          "domain": "hotel.ch",
+          "ip": null,
+          "latency_ms": 1498.42,
+          "status": "failed"
+        },
+        {
+          "domain": "c3budiman.tk",
+          "ip": null,
+          "latency_ms": 1617.74,
+          "status": "failed"
+        },
+        {
+          "domain": "obtscan.com",
+          "ip": null,
+          "latency_ms": 11978.78,
+          "status": "failed"
+        },
+        {
+          "domain": "phoenix-music.ru",
+          "ip": null,
+          "latency_ms": 2525.18,
+          "status": "failed"
+        },
+        {
+          "domain": "motiie.com",
+          "ip": null,
+          "latency_ms": 11799.76,
+          "status": "failed"
+        },
+        {
+          "domain": "isilon",
+          "ip": null,
+          "latency_ms": 17161.88,
+          "status": "failed"
+        },
+        {
+          "domain": "cncdesign.co.kr",
+          "ip": null,
+          "latency_ms": 2807.55,
+          "status": "failed"
+        },
+        {
+          "domain": "udoo24.com",
+          "ip": "185.232.14.229",
+          "latency_ms": 678.3,
+          "status": "success"
+        },
+        {
+          "domain": "ljyelectronic.com",
+          "ip": "156.232.155.66",
+          "latency_ms": 901.48,
+          "status": "success"
+        },
+        {
+          "domain": "bek.ir",
+          "ip": null,
+          "latency_ms": 2205.07,
+          "status": "failed"
+        },
+        {
+          "domain": "valerievandenbroek.nl",
+          "ip": null,
+          "latency_ms": 884.92,
+          "status": "failed"
+        },
+        {
+          "domain": "lacuentaperdida.org",
+          "ip": null,
+          "latency_ms": 883.29,
+          "status": "failed"
+        },
+        {
+          "domain": "alkoholiker-clan.de",
+          "ip": null,
+          "latency_ms": 2485.57,
+          "status": "failed"
+        },
+        {
+          "domain": "doommovie.com",
+          "ip": "104.21.50.133",
+          "latency_ms": 659.03,
+          "status": "success"
+        },
+        {
+          "domain": "xqgcab.com",
+          "ip": null,
+          "latency_ms": 11789.25,
+          "status": "failed"
+        },
+        {
+          "domain": "uanet.net",
+          "ip": null,
+          "latency_ms": 11867.26,
+          "status": "failed"
+        },
+        {
+          "domain": "tomorrowsreflection.com",
+          "ip": "34.67.56.17",
+          "latency_ms": 973.96,
+          "status": "success"
+        },
+        {
+          "domain": "lighthouse.cc",
+          "ip": "192.110.166.196",
+          "latency_ms": 1228.06,
+          "status": "success"
+        },
+        {
+          "domain": "7sports.jp",
+          "ip": null,
+          "latency_ms": 2970.66,
+          "status": "failed"
+        },
+        {
+          "domain": "gamepsvita.com",
+          "ip": "104.21.73.148",
+          "latency_ms": 735.56,
+          "status": "success"
+        },
+        {
+          "domain": "thunderex.com",
+          "ip": "97.74.85.52",
+          "latency_ms": 965.04,
+          "status": "success"
+        },
+        {
+          "domain": "zamlelova.ru",
+          "ip": null,
+          "latency_ms": 2607.13,
+          "status": "failed"
+        },
+        {
+          "domain": "atomicbase.com",
+          "ip": "192.252.149.20",
+          "latency_ms": 1181.12,
+          "status": "success"
+        },
+        {
+          "domain": "qdushu.com",
+          "ip": null,
+          "latency_ms": 1173.61,
+          "status": "failed"
+        },
+        {
+          "domain": "raqualia.com",
+          "ip": null,
+          "latency_ms": 11916.7,
+          "status": "failed"
+        },
+        {
+          "domain": "fanzi.pl",
+          "ip": null,
+          "latency_ms": 6753.07,
+          "status": "failed"
+        },
+        {
+          "domain": "womenology.com",
+          "ip": "213.186.33.4",
+          "latency_ms": 684.62,
+          "status": "success"
+        },
+        {
+          "domain": "tonaci.com",
+          "ip": "69.46.47.132",
+          "latency_ms": 899.71,
+          "status": "success"
+        },
+        {
+          "domain": "youngsnetwork.it",
+          "ip": null,
+          "latency_ms": 2144.08,
+          "status": "failed"
+        },
+        {
+          "domain": "gvowebcast.com",
+          "ip": "172.67.176.152",
+          "latency_ms": 762.9,
+          "status": "success"
+        },
+        {
+          "domain": "isatap",
+          "ip": null,
+          "latency_ms": 17361.35,
+          "status": "failed"
+        },
+        {
+          "domain": "aspiringwriter.ca",
+          "ip": null,
+          "latency_ms": 1311.35,
+          "status": "failed"
+        },
+        {
+          "domain": "heygal.net",
+          "ip": null,
+          "latency_ms": 11860.85,
+          "status": "failed"
+        },
+        {
+          "domain": "mpskota.com",
+          "ip": "20.192.98.161",
+          "latency_ms": 669.73,
+          "status": "success"
+        },
+        {
+          "domain": "ohdev.co.uk",
+          "ip": null,
+          "latency_ms": 2107.04,
+          "status": "failed"
+        },
+        {
+          "domain": "topilehtipuu.com",
+          "ip": null,
+          "latency_ms": 11778.57,
+          "status": "failed"
+        },
+        {
+          "domain": "thereeftank.com",
+          "ip": "151.101.1.91",
+          "latency_ms": 888.31,
+          "status": "success"
+        },
+        {
+          "domain": "volksschule-neufahrn.de",
+          "ip": null,
+          "latency_ms": 2524.54,
+          "status": "failed"
+        },
+        {
+          "domain": "qingjiaopidaiji.com",
+          "ip": null,
+          "latency_ms": 11779.57,
+          "status": "failed"
+        },
+        {
+          "domain": "jcwcn.com",
+          "ip": null,
+          "latency_ms": 11828.39,
+          "status": "failed"
+        },
+        {
+          "domain": "huhgmbh.com",
+          "ip": "13.223.25.84",
+          "latency_ms": 1215.4,
+          "status": "success"
+        },
+        {
+          "domain": "redcrosseth.org",
+          "ip": null,
+          "latency_ms": 1063.17,
+          "status": "failed"
+        },
+        {
+          "domain": "lookpage.org",
+          "ip": null,
+          "latency_ms": 1108.1,
+          "status": "failed"
+        },
+        {
+          "domain": "mplus.hk",
+          "ip": "159.138.153.43",
+          "latency_ms": 1190.94,
+          "status": "success"
+        },
+        {
+          "domain": "sandieskorner.com",
+          "ip": null,
+          "latency_ms": 11770.28,
+          "status": "failed"
+        },
+        {
+          "domain": "sinemagrafik.com",
+          "ip": null,
+          "latency_ms": 11815.04,
+          "status": "failed"
+        },
+        {
+          "domain": "itattoos.org",
+          "ip": null,
+          "latency_ms": 1012.98,
+          "status": "failed"
+        },
+        {
+          "domain": "lgmonitorreview.nl",
+          "ip": null,
+          "latency_ms": 982.39,
+          "status": "failed"
+        },
+        {
+          "domain": "sscw.ee",
+          "ip": "217.146.69.45",
+          "latency_ms": 1066.63,
+          "status": "success"
+        },
+        {
+          "domain": "nucre.com",
+          "ip": null,
+          "latency_ms": 11863.34,
+          "status": "failed"
+        },
+        {
+          "domain": "cornesoft.com",
+          "ip": null,
+          "latency_ms": 11878.6,
+          "status": "failed"
+        },
+        {
+          "domain": "mattselznick.com",
+          "ip": "44.245.84.147",
+          "latency_ms": 713.67,
+          "status": "success"
+        },
+        {
+          "domain": "horn-elektronik.com",
+          "ip": null,
+          "latency_ms": 11818.04,
+          "status": "failed"
+        },
+        {
+          "domain": "rousing.dk",
+          "ip": "212.237.249.17",
+          "latency_ms": 999.42,
+          "status": "success"
+        },
+        {
+          "domain": "i12.de",
+          "ip": null,
+          "latency_ms": 2544.43,
+          "status": "failed"
+        },
+        {
+          "domain": "casco.com",
+          "ip": "216.150.1.1",
+          "latency_ms": 677.83,
+          "status": "success"
+        },
+        {
+          "domain": "ambassadorsspfhf.org",
+          "ip": null,
+          "latency_ms": 1224.48,
+          "status": "failed"
+        },
+        {
+          "domain": "capella.edu",
+          "ip": null,
+          "latency_ms": 11896.01,
+          "status": "failed"
+        },
+        {
+          "domain": "nipslab.org",
+          "ip": null,
+          "latency_ms": 1103.49,
+          "status": "failed"
+        },
+        {
+          "domain": "webxtrap.com",
+          "ip": "109.234.165.168",
+          "latency_ms": 957.02,
+          "status": "success"
+        },
+        {
+          "domain": "stopallthathating.com",
+          "ip": null,
+          "latency_ms": 11836.57,
+          "status": "failed"
+        },
+        {
+          "domain": "ovtoc.com",
+          "ip": "64.190.63.222",
+          "latency_ms": 973.48,
+          "status": "success"
+        },
+        {
+          "domain": "vaco.ru",
+          "ip": null,
+          "latency_ms": 2666.4,
+          "status": "failed"
+        },
+        {
+          "domain": "ku.edu",
+          "ip": "129.237.135.76",
+          "latency_ms": 6415.2,
+          "status": "success"
+        },
+        {
+          "domain": "amedeos.net",
+          "ip": null,
+          "latency_ms": 11937.29,
+          "status": "failed"
+        },
+        {
+          "domain": "thankfullyyours.com",
+          "ip": "23.227.38.32",
+          "latency_ms": 994.06,
+          "status": "success"
+        },
+        {
+          "domain": "elettronix.com",
+          "ip": null,
+          "latency_ms": 11858.61,
+          "status": "failed"
+        },
+        {
+          "domain": "meintrendyhandy.de",
+          "ip": null,
+          "latency_ms": 2502.23,
+          "status": "failed"
+        },
+        {
+          "domain": "a-loud.com",
+          "ip": "183.111.199.180",
+          "latency_ms": 942.69,
+          "status": "success"
+        },
+        {
+          "domain": "hznzcn.com",
+          "ip": null,
+          "latency_ms": 11816.5,
+          "status": "failed"
+        },
+        {
+          "domain": "zilch.org",
+          "ip": null,
+          "latency_ms": 1192.12,
+          "status": "failed"
+        },
+        {
+          "domain": "metabans.com",
+          "ip": "104.21.65.104",
+          "latency_ms": 768.0,
+          "status": "success"
+        },
+        {
+          "domain": "tretsomshop.nl",
+          "ip": null,
+          "latency_ms": 1265.63,
+          "status": "failed"
+        },
+        {
+          "domain": "gba4iosapp.com",
+          "ip": "198.49.23.144",
+          "latency_ms": 1131.24,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "wpad",
+          "servers_contacted": 23,
+          "latency_ms": 17346.39,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "likeminded.ca",
+          "servers_contacted": 6,
+          "latency_ms": 1164.35,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "alltransport.ru",
+          "servers_contacted": 6,
+          "latency_ms": 1147.49,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "brown.edu",
+          "servers_contacted": 7,
+          "latency_ms": 6446.1,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "fauzanalfi.com",
+          "servers_contacted": 10,
+          "latency_ms": 1271.27,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "supreetsethi.net",
+          "servers_contacted": 12,
+          "latency_ms": 11783.03,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gucenmez.com",
+          "servers_contacted": 6,
+          "latency_ms": 738.03,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "seedy.dk",
+          "servers_contacted": 14,
+          "latency_ms": 2211.58,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "51cdngo.com",
+          "servers_contacted": 12,
+          "latency_ms": 11749.63,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "simple-health-reports.com",
+          "servers_contacted": 12,
+          "latency_ms": 11712.99,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "hivelocitymedia.com",
+          "servers_contacted": 6,
+          "latency_ms": 666.41,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "jabeye.org",
+          "servers_contacted": 14,
+          "latency_ms": 1001.41,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ticketbis.com",
+          "servers_contacted": 18,
+          "latency_ms": 2020.67,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "cellularfactory.com",
+          "servers_contacted": 6,
+          "latency_ms": 715.82,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "tsksv.ru",
+          "servers_contacted": 6,
+          "latency_ms": 1162.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "gaybodyblog.com",
+          "servers_contacted": 6,
+          "latency_ms": 722.51,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "datadikdki.net",
+          "servers_contacted": 12,
+          "latency_ms": 11897.73,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mumphi.de",
+          "servers_contacted": 14,
+          "latency_ms": 2636.75,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "servers_contacted": 23,
+          "latency_ms": 17443.0,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "servers_contacted": 23,
+          "latency_ms": 17323.11,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "servers_contacted": 23,
+          "latency_ms": 17297.57,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "brfone.com",
+          "servers_contacted": 6,
+          "latency_ms": 1131.03,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "newpages2u.com",
+          "servers_contacted": 12,
+          "latency_ms": 11751.52,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "bigjournalism.com",
+          "servers_contacted": 6,
+          "latency_ms": 683.25,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "congsoxanh.com",
+          "servers_contacted": 6,
+          "latency_ms": 721.65,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "visualtap.com",
+          "servers_contacted": 6,
+          "latency_ms": 1146.42,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "oberoncompany.com",
+          "servers_contacted": 6,
+          "latency_ms": 725.86,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "consejodentistas.org",
+          "servers_contacted": 14,
+          "latency_ms": 1002.22,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "k-dsl.de",
+          "servers_contacted": 14,
+          "latency_ms": 7425.68,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "asip.es",
+          "servers_contacted": 10,
+          "latency_ms": 1261.37,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "androgyn.org",
+          "servers_contacted": 6,
+          "latency_ms": 851.34,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "panaceadream.com",
+          "servers_contacted": 12,
+          "latency_ms": 11862.91,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "hotel.ch",
+          "servers_contacted": 12,
+          "latency_ms": 1498.41,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "c3budiman.tk",
+          "servers_contacted": 10,
+          "latency_ms": 1617.73,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "obtscan.com",
+          "servers_contacted": 12,
+          "latency_ms": 11978.77,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "phoenix-music.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2525.17,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "motiie.com",
+          "servers_contacted": 12,
+          "latency_ms": 11799.74,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "isilon",
+          "servers_contacted": 23,
+          "latency_ms": 17161.81,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "cncdesign.co.kr",
+          "servers_contacted": 14,
+          "latency_ms": 2807.54,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "udoo24.com",
+          "servers_contacted": 6,
+          "latency_ms": 678.29,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ljyelectronic.com",
+          "servers_contacted": 6,
+          "latency_ms": 901.47,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "bek.ir",
+          "servers_contacted": 10,
+          "latency_ms": 2205.06,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "valerievandenbroek.nl",
+          "servers_contacted": 8,
+          "latency_ms": 884.88,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "lacuentaperdida.org",
+          "servers_contacted": 14,
+          "latency_ms": 883.23,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "alkoholiker-clan.de",
+          "servers_contacted": 14,
+          "latency_ms": 2485.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "doommovie.com",
+          "servers_contacted": 6,
+          "latency_ms": 659.02,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "xqgcab.com",
+          "servers_contacted": 12,
+          "latency_ms": 11789.23,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "uanet.net",
+          "servers_contacted": 12,
+          "latency_ms": 11867.23,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "tomorrowsreflection.com",
+          "servers_contacted": 6,
+          "latency_ms": 973.95,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "lighthouse.cc",
+          "servers_contacted": 6,
+          "latency_ms": 1228.05,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "7sports.jp",
+          "servers_contacted": 18,
+          "latency_ms": 2970.64,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gamepsvita.com",
+          "servers_contacted": 6,
+          "latency_ms": 735.55,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "thunderex.com",
+          "servers_contacted": 6,
+          "latency_ms": 965.03,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "zamlelova.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2607.12,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "atomicbase.com",
+          "servers_contacted": 6,
+          "latency_ms": 1181.11,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "qdushu.com",
+          "servers_contacted": 8,
+          "latency_ms": 1173.6,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "raqualia.com",
+          "servers_contacted": 12,
+          "latency_ms": 11916.68,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "fanzi.pl",
+          "servers_contacted": 13,
+          "latency_ms": 6753.01,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "womenology.com",
+          "servers_contacted": 6,
+          "latency_ms": 684.61,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "tonaci.com",
+          "servers_contacted": 6,
+          "latency_ms": 899.7,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "youngsnetwork.it",
+          "servers_contacted": 14,
+          "latency_ms": 2144.07,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gvowebcast.com",
+          "servers_contacted": 6,
+          "latency_ms": 762.89,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "isatap",
+          "servers_contacted": 23,
+          "latency_ms": 17361.33,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "aspiringwriter.ca",
+          "servers_contacted": 10,
+          "latency_ms": 1311.34,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "heygal.net",
+          "servers_contacted": 12,
+          "latency_ms": 11860.84,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mpskota.com",
+          "servers_contacted": 6,
+          "latency_ms": 669.72,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ohdev.co.uk",
+          "servers_contacted": 18,
+          "latency_ms": 2107.03,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "topilehtipuu.com",
+          "servers_contacted": 12,
+          "latency_ms": 11778.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "thereeftank.com",
+          "servers_contacted": 6,
+          "latency_ms": 888.3,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "volksschule-neufahrn.de",
+          "servers_contacted": 14,
+          "latency_ms": 2524.53,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "qingjiaopidaiji.com",
+          "servers_contacted": 12,
+          "latency_ms": 11779.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "jcwcn.com",
+          "servers_contacted": 12,
+          "latency_ms": 11828.37,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "huhgmbh.com",
+          "servers_contacted": 6,
+          "latency_ms": 1215.38,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "redcrosseth.org",
+          "servers_contacted": 14,
+          "latency_ms": 1063.15,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "lookpage.org",
+          "servers_contacted": 14,
+          "latency_ms": 1108.09,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mplus.hk",
+          "servers_contacted": 6,
+          "latency_ms": 1190.93,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "sandieskorner.com",
+          "servers_contacted": 12,
+          "latency_ms": 11770.27,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sinemagrafik.com",
+          "servers_contacted": 12,
+          "latency_ms": 11815.02,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "itattoos.org",
+          "servers_contacted": 14,
+          "latency_ms": 1012.96,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "lgmonitorreview.nl",
+          "servers_contacted": 8,
+          "latency_ms": 982.38,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sscw.ee",
+          "servers_contacted": 6,
+          "latency_ms": 1066.62,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "nucre.com",
+          "servers_contacted": 12,
+          "latency_ms": 11863.33,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "cornesoft.com",
+          "servers_contacted": 12,
+          "latency_ms": 11878.55,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mattselznick.com",
+          "servers_contacted": 6,
+          "latency_ms": 713.65,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "horn-elektronik.com",
+          "servers_contacted": 12,
+          "latency_ms": 11818.03,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "rousing.dk",
+          "servers_contacted": 6,
+          "latency_ms": 999.37,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "i12.de",
+          "servers_contacted": 14,
+          "latency_ms": 2544.42,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "casco.com",
+          "servers_contacted": 6,
+          "latency_ms": 677.81,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ambassadorsspfhf.org",
+          "servers_contacted": 14,
+          "latency_ms": 1224.47,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "capella.edu",
+          "servers_contacted": 12,
+          "latency_ms": 11895.96,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "nipslab.org",
+          "servers_contacted": 14,
+          "latency_ms": 1103.47,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "webxtrap.com",
+          "servers_contacted": 6,
+          "latency_ms": 957.01,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "stopallthathating.com",
+          "servers_contacted": 12,
+          "latency_ms": 11836.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ovtoc.com",
+          "servers_contacted": 6,
+          "latency_ms": 973.47,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "vaco.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2666.39,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ku.edu",
+          "servers_contacted": 7,
+          "latency_ms": 6415.19,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "amedeos.net",
+          "servers_contacted": 12,
+          "latency_ms": 11937.25,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "thankfullyyours.com",
+          "servers_contacted": 6,
+          "latency_ms": 994.05,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "elettronix.com",
+          "servers_contacted": 12,
+          "latency_ms": 11858.59,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "meintrendyhandy.de",
+          "servers_contacted": 14,
+          "latency_ms": 2502.22,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "a-loud.com",
+          "servers_contacted": 6,
+          "latency_ms": 942.68,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "hznzcn.com",
+          "servers_contacted": 12,
+          "latency_ms": 11816.49,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "zilch.org",
+          "servers_contacted": 14,
+          "latency_ms": 1192.11,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "metabans.com",
+          "servers_contacted": 6,
+          "latency_ms": 767.98,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "tretsomshop.nl",
+          "servers_contacted": 8,
+          "latency_ms": 1265.61,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gba4iosapp.com",
+          "servers_contacted": 6,
+          "latency_ms": 1131.22,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        }
+      ]
+    },
+    {
+      "host": "h3",
+      "source_file": "/home/Aditya/Desktop/CN/urls_h3.txt",
+      "recursive_mode": true,
+      "total_queries": 106,
+      "successful": 42,
+      "failed": 64,
+      "success_rate_percent": 39.62,
+      "average_latency_ms": 1050.13,
+      "throughput_queries_per_sec": 0.2,
+      "cache_statistics": {
+        "recursive_hits": 0,
+        "recursive_misses": 318,
+        "iterative_hits": 0,
+        "iterative_misses": 1543,
+        "total_cache_hits": 0,
+        "total_queries": 318,
+        "cache_hit_rate_percent": 0.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 0,
+        "resolved_from_network": 133,
+        "total_resolved": 133,
+        "percent_resolved_from_cache": 0.0
+      },
+      "cache_hits_this_host": 0,
+      "results": [
+        {
+          "domain": "wpad",
+          "ip": null,
+          "latency_ms": 17985.45,
+          "status": "failed"
+        },
+        {
+          "domain": "tenant-internet.com",
+          "ip": null,
+          "latency_ms": 11820.16,
+          "status": "failed"
+        },
+        {
+          "domain": "gadanguides.com",
+          "ip": null,
+          "latency_ms": 11854.57,
+          "status": "failed"
+        },
+        {
+          "domain": "charityjob.co.uk",
+          "ip": null,
+          "latency_ms": 2258.82,
+          "status": "failed"
+        },
+        {
+          "domain": "sarahpartridge.net",
+          "ip": null,
+          "latency_ms": 11838.73,
+          "status": "failed"
+        },
+        {
+          "domain": "ecolems.com",
+          "ip": null,
+          "latency_ms": 11871.41,
+          "status": "failed"
+        },
+        {
+          "domain": "marilynlingerie.com",
+          "ip": null,
+          "latency_ms": 12039.79,
+          "status": "failed"
+        },
+        {
+          "domain": "anvilnetworksolutions.net",
+          "ip": null,
+          "latency_ms": 12017.23,
+          "status": "failed"
+        },
+        {
+          "domain": "cdmail.fr",
+          "ip": null,
+          "latency_ms": 1068.68,
+          "status": "failed"
+        },
+        {
+          "domain": "freeditorial.com",
+          "ip": "51.178.246.100",
+          "latency_ms": 689.85,
+          "status": "success"
+        },
+        {
+          "domain": "ciber.com",
+          "ip": "103.247.209.15",
+          "latency_ms": 728.42,
+          "status": "success"
+        },
+        {
+          "domain": "get-webby.com",
+          "ip": null,
+          "latency_ms": 11805.08,
+          "status": "failed"
+        },
+        {
+          "domain": "gadgetgearpro.com",
+          "ip": null,
+          "latency_ms": 11819.56,
+          "status": "failed"
+        },
+        {
+          "domain": "sonoma-marinfair.org",
+          "ip": null,
+          "latency_ms": 1073.24,
+          "status": "failed"
+        },
+        {
+          "domain": "ishidatic.com",
+          "ip": "15.197.172.60",
+          "latency_ms": 1246.38,
+          "status": "success"
+        },
+        {
+          "domain": "minecraftserverdeals.com",
+          "ip": "104.21.1.113",
+          "latency_ms": 698.66,
+          "status": "success"
+        },
+        {
+          "domain": "romney.com",
+          "ip": "208.91.197.27",
+          "latency_ms": 745.55,
+          "status": "success"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "ip": null,
+          "latency_ms": 17629.98,
+          "status": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "ip": null,
+          "latency_ms": 22507.98,
+          "status": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "ip": null,
+          "latency_ms": 17628.4,
+          "status": "failed"
+        },
+        {
+          "domain": "bookingnest.com",
+          "ip": "76.223.54.146",
+          "latency_ms": 1081.23,
+          "status": "success"
+        },
+        {
+          "domain": "metar.gr",
+          "ip": null,
+          "latency_ms": 7237.12,
+          "status": "failed"
+        },
+        {
+          "domain": "bigliettieventi.info",
+          "ip": null,
+          "latency_ms": 1306.89,
+          "status": "failed"
+        },
+        {
+          "domain": "asseenontvlaunchpad.com",
+          "ip": null,
+          "latency_ms": 11788.15,
+          "status": "failed"
+        },
+        {
+          "domain": "ftf.com",
+          "ip": null,
+          "latency_ms": 11827.16,
+          "status": "failed"
+        },
+        {
+          "domain": "polymth.com",
+          "ip": "104.21.57.169",
+          "latency_ms": 688.01,
+          "status": "success"
+        },
+        {
+          "domain": "crsgfk.de",
+          "ip": null,
+          "latency_ms": 7344.46,
+          "status": "failed"
+        },
+        {
+          "domain": "urbannetwork.co.uk",
+          "ip": null,
+          "latency_ms": 2099.7,
+          "status": "failed"
+        },
+        {
+          "domain": "synrc.com",
+          "ip": "104.21.40.117",
+          "latency_ms": 755.33,
+          "status": "success"
+        },
+        {
+          "domain": "callcomm.info",
+          "ip": null,
+          "latency_ms": 1307.68,
+          "status": "failed"
+        },
+        {
+          "domain": "ceskykutil.cz",
+          "ip": "80.211.205.242",
+          "latency_ms": 1207.81,
+          "status": "success"
+        },
+        {
+          "domain": "ximangquantrieu.com",
+          "ip": "123.31.17.119",
+          "latency_ms": 912.89,
+          "status": "success"
+        },
+        {
+          "domain": "shishioh.info",
+          "ip": null,
+          "latency_ms": 1252.31,
+          "status": "failed"
+        },
+        {
+          "domain": "vpndefender.com",
+          "ip": "54.224.56.57",
+          "latency_ms": 719.87,
+          "status": "success"
+        },
+        {
+          "domain": "hutago.com",
+          "ip": null,
+          "latency_ms": 11843.73,
+          "status": "failed"
+        },
+        {
+          "domain": "tangkas888.com",
+          "ip": "172.67.130.50",
+          "latency_ms": 712.24,
+          "status": "success"
+        },
+        {
+          "domain": "egov.sy",
+          "ip": "185.216.134.58",
+          "latency_ms": 902.07,
+          "status": "success"
+        },
+        {
+          "domain": "abmcare.com",
+          "ip": "104.18.11.144",
+          "latency_ms": 704.05,
+          "status": "success"
+        },
+        {
+          "domain": "isilon",
+          "ip": null,
+          "latency_ms": 17686.38,
+          "status": "failed"
+        },
+        {
+          "domain": "iael.com",
+          "ip": "172.104.149.86",
+          "latency_ms": 900.71,
+          "status": "success"
+        },
+        {
+          "domain": "sailor.pl",
+          "ip": "88.99.19.146",
+          "latency_ms": 743.03,
+          "status": "success"
+        },
+        {
+          "domain": "skyhightmatter.info",
+          "ip": null,
+          "latency_ms": 1304.04,
+          "status": "failed"
+        },
+        {
+          "domain": "autopareri.com",
+          "ip": "147.93.94.216",
+          "latency_ms": 764.74,
+          "status": "success"
+        },
+        {
+          "domain": "cia.it",
+          "ip": "3.248.13.228",
+          "latency_ms": 1049.58,
+          "status": "success"
+        },
+        {
+          "domain": "texasbeyondhistory.net",
+          "ip": null,
+          "latency_ms": 11943.37,
+          "status": "failed"
+        },
+        {
+          "domain": "gardenofwords.com",
+          "ip": "192.0.78.25",
+          "latency_ms": 685.98,
+          "status": "success"
+        },
+        {
+          "domain": "giuseppelivraghi.it",
+          "ip": null,
+          "latency_ms": 2221.95,
+          "status": "failed"
+        },
+        {
+          "domain": "hdcric.com",
+          "ip": "159.69.42.212",
+          "latency_ms": 974.02,
+          "status": "success"
+        },
+        {
+          "domain": "chekiang.info",
+          "ip": null,
+          "latency_ms": 1270.87,
+          "status": "failed"
+        },
+        {
+          "domain": "archiportale.com",
+          "ip": "104.18.13.154",
+          "latency_ms": 721.59,
+          "status": "success"
+        },
+        {
+          "domain": "de.vu",
+          "ip": null,
+          "latency_ms": 952.37,
+          "status": "failed"
+        },
+        {
+          "domain": "teachmyass.info",
+          "ip": null,
+          "latency_ms": 1281.87,
+          "status": "failed"
+        },
+        {
+          "domain": "nasaspaceflight.com",
+          "ip": "172.66.43.73",
+          "latency_ms": 687.35,
+          "status": "success"
+        },
+        {
+          "domain": "consumerreviews24.com",
+          "ip": null,
+          "latency_ms": 11889.74,
+          "status": "failed"
+        },
+        {
+          "domain": "dilw.ie",
+          "ip": null,
+          "latency_ms": 1959.84,
+          "status": "failed"
+        },
+        {
+          "domain": "bbqinjector.com",
+          "ip": null,
+          "latency_ms": 11785.47,
+          "status": "failed"
+        },
+        {
+          "domain": "gxjbsj.com",
+          "ip": "172.247.103.2",
+          "latency_ms": 1104.96,
+          "status": "success"
+        },
+        {
+          "domain": "fmnara.com",
+          "ip": null,
+          "latency_ms": 11841.45,
+          "status": "failed"
+        },
+        {
+          "domain": "pet-connect.ru",
+          "ip": "194.58.112.174",
+          "latency_ms": 1781.02,
+          "status": "success"
+        },
+        {
+          "domain": "isatap",
+          "ip": null,
+          "latency_ms": 17891.1,
+          "status": "failed"
+        },
+        {
+          "domain": "synchchaos.com",
+          "ip": "203.161.61.102",
+          "latency_ms": 1185.04,
+          "status": "success"
+        },
+        {
+          "domain": "uca.edu",
+          "ip": "161.31.3.35",
+          "latency_ms": 6454.7,
+          "status": "success"
+        },
+        {
+          "domain": "oaister.org",
+          "ip": null,
+          "latency_ms": 1108.39,
+          "status": "failed"
+        },
+        {
+          "domain": "chenghuavideo.asia",
+          "ip": null,
+          "latency_ms": 1247.41,
+          "status": "failed"
+        },
+        {
+          "domain": "video-peche-poisson.fr",
+          "ip": null,
+          "latency_ms": 1103.08,
+          "status": "failed"
+        },
+        {
+          "domain": "currencyrates.org",
+          "ip": null,
+          "latency_ms": 1037.8,
+          "status": "failed"
+        },
+        {
+          "domain": "zpav.pl",
+          "ip": "83.238.107.112",
+          "latency_ms": 729.33,
+          "status": "success"
+        },
+        {
+          "domain": "tawali.com",
+          "ip": "173.249.147.46",
+          "latency_ms": 1040.29,
+          "status": "success"
+        },
+        {
+          "domain": "dock2office.com",
+          "ip": null,
+          "latency_ms": 11884.25,
+          "status": "failed"
+        },
+        {
+          "domain": "vlielandoutdoorcenter.nl",
+          "ip": "185.232.249.41",
+          "latency_ms": 728.22,
+          "status": "success"
+        },
+        {
+          "domain": "gregginn.com",
+          "ip": "3.33.130.190",
+          "latency_ms": 997.05,
+          "status": "success"
+        },
+        {
+          "domain": "arcoat.com",
+          "ip": "66.39.19.55",
+          "latency_ms": 1207.22,
+          "status": "success"
+        },
+        {
+          "domain": "cushinglawoffices.com",
+          "ip": null,
+          "latency_ms": 11854.47,
+          "status": "failed"
+        },
+        {
+          "domain": "eggcityradio.com",
+          "ip": null,
+          "latency_ms": 11733.89,
+          "status": "failed"
+        },
+        {
+          "domain": "michaelbyers.org",
+          "ip": null,
+          "latency_ms": 1019.37,
+          "status": "failed"
+        },
+        {
+          "domain": "stkpro.ru",
+          "ip": "205.251.138.125",
+          "latency_ms": 1299.01,
+          "status": "success"
+        },
+        {
+          "domain": "silveropt.ru",
+          "ip": null,
+          "latency_ms": 2546.92,
+          "status": "failed"
+        },
+        {
+          "domain": "topbarbee.com",
+          "ip": "159.203.135.249",
+          "latency_ms": 1119.61,
+          "status": "success"
+        },
+        {
+          "domain": "teleskill.it",
+          "ip": null,
+          "latency_ms": 1991.28,
+          "status": "failed"
+        },
+        {
+          "domain": "virtualjerusalem.com",
+          "ip": "69.48.168.47",
+          "latency_ms": 1076.57,
+          "status": "success"
+        },
+        {
+          "domain": "morban.co.uk",
+          "ip": null,
+          "latency_ms": 2122.39,
+          "status": "failed"
+        },
+        {
+          "domain": "mechachal.org",
+          "ip": null,
+          "latency_ms": 1136.43,
+          "status": "failed"
+        },
+        {
+          "domain": "noblewomanhood.com",
+          "ip": "74.208.236.114",
+          "latency_ms": 973.34,
+          "status": "success"
+        },
+        {
+          "domain": "cosmeticaestheticsurgery.com",
+          "ip": "3.33.130.190",
+          "latency_ms": 941.22,
+          "status": "success"
+        },
+        {
+          "domain": "note-so-easy.co.za",
+          "ip": null,
+          "latency_ms": 3301.73,
+          "status": "failed"
+        },
+        {
+          "domain": "vietcapitaltour.com",
+          "ip": null,
+          "latency_ms": 11842.38,
+          "status": "failed"
+        },
+        {
+          "domain": "ncees.org",
+          "ip": null,
+          "latency_ms": 1007.9,
+          "status": "failed"
+        },
+        {
+          "domain": "laigang001.com",
+          "ip": null,
+          "latency_ms": 11909.28,
+          "status": "failed"
+        },
+        {
+          "domain": "verlockeshop.de",
+          "ip": null,
+          "latency_ms": 2574.77,
+          "status": "failed"
+        },
+        {
+          "domain": "clickdownloadfiles.com",
+          "ip": null,
+          "latency_ms": 11827.59,
+          "status": "failed"
+        },
+        {
+          "domain": "e-hps.com",
+          "ip": "208.44.185.221",
+          "latency_ms": 720.57,
+          "status": "success"
+        },
+        {
+          "domain": "drglendza.co.rs",
+          "ip": null,
+          "latency_ms": 2038.8,
+          "status": "failed"
+        },
+        {
+          "domain": "ghimpele.ro",
+          "ip": null,
+          "latency_ms": 2710.69,
+          "status": "failed"
+        },
+        {
+          "domain": "pahibu.net",
+          "ip": null,
+          "latency_ms": 11952.33,
+          "status": "failed"
+        },
+        {
+          "domain": "trackcheatingspouse.com",
+          "ip": null,
+          "latency_ms": 11863.89,
+          "status": "failed"
+        },
+        {
+          "domain": "dricom-hosting.nl",
+          "ip": "46.249.36.223",
+          "latency_ms": 726.48,
+          "status": "success"
+        },
+        {
+          "domain": "medipacademy.com",
+          "ip": "172.67.131.163",
+          "latency_ms": 734.12,
+          "status": "success"
+        },
+        {
+          "domain": "e-daily.gr",
+          "ip": null,
+          "latency_ms": 7156.13,
+          "status": "failed"
+        },
+        {
+          "domain": "cuteteenschoolgirlz.com",
+          "ip": null,
+          "latency_ms": 11867.1,
+          "status": "failed"
+        },
+        {
+          "domain": "hralda.info",
+          "ip": null,
+          "latency_ms": 1378.1,
+          "status": "failed"
+        },
+        {
+          "domain": "sendrakhizonline.com",
+          "ip": "20.244.2.144",
+          "latency_ms": 978.0,
+          "status": "success"
+        },
+        {
+          "domain": "hayalforum.net",
+          "ip": null,
+          "latency_ms": 11963.59,
+          "status": "failed"
+        },
+        {
+          "domain": "begleyhutton.com",
+          "ip": null,
+          "latency_ms": 11837.32,
+          "status": "failed"
+        },
+        {
+          "domain": "bmw-parts.ru",
+          "ip": "91.236.136.97",
+          "latency_ms": 1234.41,
+          "status": "success"
+        },
+        {
+          "domain": "rterc.in",
+          "ip": null,
+          "latency_ms": 686.48,
+          "status": "failed"
+        },
+        {
+          "domain": "monitis.com",
+          "ip": "188.172.236.218",
+          "latency_ms": 755.06,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "wpad",
+          "servers_contacted": 23,
+          "latency_ms": 17985.43,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "tenant-internet.com",
+          "servers_contacted": 12,
+          "latency_ms": 11820.14,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gadanguides.com",
+          "servers_contacted": 12,
+          "latency_ms": 11854.55,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "charityjob.co.uk",
+          "servers_contacted": 18,
+          "latency_ms": 2258.81,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sarahpartridge.net",
+          "servers_contacted": 12,
+          "latency_ms": 11838.71,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ecolems.com",
+          "servers_contacted": 12,
+          "latency_ms": 11871.4,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "marilynlingerie.com",
+          "servers_contacted": 12,
+          "latency_ms": 12039.77,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "anvilnetworksolutions.net",
+          "servers_contacted": 12,
+          "latency_ms": 12017.21,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "cdmail.fr",
+          "servers_contacted": 8,
+          "latency_ms": 1068.66,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "freeditorial.com",
+          "servers_contacted": 6,
+          "latency_ms": 689.84,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ciber.com",
+          "servers_contacted": 6,
+          "latency_ms": 728.41,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "get-webby.com",
+          "servers_contacted": 12,
+          "latency_ms": 11805.06,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gadgetgearpro.com",
+          "servers_contacted": 12,
+          "latency_ms": 11819.52,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sonoma-marinfair.org",
+          "servers_contacted": 14,
+          "latency_ms": 1073.22,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ishidatic.com",
+          "servers_contacted": 6,
+          "latency_ms": 1246.37,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "minecraftserverdeals.com",
+          "servers_contacted": 6,
+          "latency_ms": 698.65,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "romney.com",
+          "servers_contacted": 6,
+          "latency_ms": 745.54,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "servers_contacted": 23,
+          "latency_ms": 17629.96,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "servers_contacted": 22,
+          "latency_ms": 22507.97,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "servers_contacted": 23,
+          "latency_ms": 17628.38,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "bookingnest.com",
+          "servers_contacted": 6,
+          "latency_ms": 1081.22,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "metar.gr",
+          "servers_contacted": 13,
+          "latency_ms": 7237.11,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "bigliettieventi.info",
+          "servers_contacted": 14,
+          "latency_ms": 1306.88,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "asseenontvlaunchpad.com",
+          "servers_contacted": 12,
+          "latency_ms": 11788.14,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ftf.com",
+          "servers_contacted": 12,
+          "latency_ms": 11827.15,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "polymth.com",
+          "servers_contacted": 6,
+          "latency_ms": 687.99,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "crsgfk.de",
+          "servers_contacted": 14,
+          "latency_ms": 7344.45,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "urbannetwork.co.uk",
+          "servers_contacted": 18,
+          "latency_ms": 2099.68,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "synrc.com",
+          "servers_contacted": 6,
+          "latency_ms": 755.32,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "callcomm.info",
+          "servers_contacted": 14,
+          "latency_ms": 1307.63,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ceskykutil.cz",
+          "servers_contacted": 6,
+          "latency_ms": 1207.8,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ximangquantrieu.com",
+          "servers_contacted": 6,
+          "latency_ms": 912.88,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "shishioh.info",
+          "servers_contacted": 14,
+          "latency_ms": 1252.3,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "vpndefender.com",
+          "servers_contacted": 6,
+          "latency_ms": 719.85,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "hutago.com",
+          "servers_contacted": 12,
+          "latency_ms": 11843.72,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "tangkas888.com",
+          "servers_contacted": 6,
+          "latency_ms": 712.23,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "egov.sy",
+          "servers_contacted": 6,
+          "latency_ms": 902.06,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "abmcare.com",
+          "servers_contacted": 6,
+          "latency_ms": 704.04,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "isilon",
+          "servers_contacted": 23,
+          "latency_ms": 17686.36,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "iael.com",
+          "servers_contacted": 6,
+          "latency_ms": 900.67,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "sailor.pl",
+          "servers_contacted": 6,
+          "latency_ms": 743.02,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "skyhightmatter.info",
+          "servers_contacted": 14,
+          "latency_ms": 1304.03,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "autopareri.com",
+          "servers_contacted": 6,
+          "latency_ms": 764.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "cia.it",
+          "servers_contacted": 6,
+          "latency_ms": 1049.57,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "texasbeyondhistory.net",
+          "servers_contacted": 12,
+          "latency_ms": 11943.35,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gardenofwords.com",
+          "servers_contacted": 6,
+          "latency_ms": 685.97,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "giuseppelivraghi.it",
+          "servers_contacted": 14,
+          "latency_ms": 2221.94,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "hdcric.com",
+          "servers_contacted": 6,
+          "latency_ms": 974.0,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "chekiang.info",
+          "servers_contacted": 14,
+          "latency_ms": 1270.86,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "archiportale.com",
+          "servers_contacted": 6,
+          "latency_ms": 721.58,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "de.vu",
+          "servers_contacted": 14,
+          "latency_ms": 952.36,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "teachmyass.info",
+          "servers_contacted": 14,
+          "latency_ms": 1281.86,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "nasaspaceflight.com",
+          "servers_contacted": 6,
+          "latency_ms": 687.33,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "consumerreviews24.com",
+          "servers_contacted": 12,
+          "latency_ms": 11889.72,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "dilw.ie",
+          "servers_contacted": 14,
+          "latency_ms": 1959.83,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "bbqinjector.com",
+          "servers_contacted": 12,
+          "latency_ms": 11785.45,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gxjbsj.com",
+          "servers_contacted": 6,
+          "latency_ms": 1104.94,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "fmnara.com",
+          "servers_contacted": 12,
+          "latency_ms": 11841.43,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "pet-connect.ru",
+          "servers_contacted": 8,
+          "latency_ms": 1781.0,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "isatap",
+          "servers_contacted": 23,
+          "latency_ms": 17891.09,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "synchchaos.com",
+          "servers_contacted": 6,
+          "latency_ms": 1185.03,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "uca.edu",
+          "servers_contacted": 7,
+          "latency_ms": 6454.68,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "oaister.org",
+          "servers_contacted": 14,
+          "latency_ms": 1108.37,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "chenghuavideo.asia",
+          "servers_contacted": 14,
+          "latency_ms": 1247.4,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "video-peche-poisson.fr",
+          "servers_contacted": 8,
+          "latency_ms": 1103.07,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "currencyrates.org",
+          "servers_contacted": 14,
+          "latency_ms": 1037.79,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "zpav.pl",
+          "servers_contacted": 6,
+          "latency_ms": 729.32,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "tawali.com",
+          "servers_contacted": 6,
+          "latency_ms": 1040.27,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "dock2office.com",
+          "servers_contacted": 12,
+          "latency_ms": 11884.24,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "vlielandoutdoorcenter.nl",
+          "servers_contacted": 6,
+          "latency_ms": 728.21,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "gregginn.com",
+          "servers_contacted": 6,
+          "latency_ms": 997.04,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "arcoat.com",
+          "servers_contacted": 6,
+          "latency_ms": 1207.2,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "cushinglawoffices.com",
+          "servers_contacted": 12,
+          "latency_ms": 11854.46,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "eggcityradio.com",
+          "servers_contacted": 12,
+          "latency_ms": 11733.88,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "michaelbyers.org",
+          "servers_contacted": 14,
+          "latency_ms": 1019.35,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "stkpro.ru",
+          "servers_contacted": 6,
+          "latency_ms": 1299.0,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "silveropt.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2546.91,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "topbarbee.com",
+          "servers_contacted": 6,
+          "latency_ms": 1119.6,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "teleskill.it",
+          "servers_contacted": 14,
+          "latency_ms": 1991.27,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "virtualjerusalem.com",
+          "servers_contacted": 6,
+          "latency_ms": 1076.56,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "morban.co.uk",
+          "servers_contacted": 18,
+          "latency_ms": 2122.37,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mechachal.org",
+          "servers_contacted": 14,
+          "latency_ms": 1136.42,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "noblewomanhood.com",
+          "servers_contacted": 6,
+          "latency_ms": 973.33,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "cosmeticaestheticsurgery.com",
+          "servers_contacted": 6,
+          "latency_ms": 941.21,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "note-so-easy.co.za",
+          "servers_contacted": 10,
+          "latency_ms": 3301.72,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "vietcapitaltour.com",
+          "servers_contacted": 12,
+          "latency_ms": 11842.37,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ncees.org",
+          "servers_contacted": 14,
+          "latency_ms": 1007.89,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "laigang001.com",
+          "servers_contacted": 12,
+          "latency_ms": 11909.26,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "verlockeshop.de",
+          "servers_contacted": 14,
+          "latency_ms": 2574.76,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "clickdownloadfiles.com",
+          "servers_contacted": 12,
+          "latency_ms": 11827.57,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "e-hps.com",
+          "servers_contacted": 6,
+          "latency_ms": 720.56,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "drglendza.co.rs",
+          "servers_contacted": 12,
+          "latency_ms": 2038.79,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ghimpele.ro",
+          "servers_contacted": 14,
+          "latency_ms": 2710.68,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "pahibu.net",
+          "servers_contacted": 12,
+          "latency_ms": 11952.32,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "trackcheatingspouse.com",
+          "servers_contacted": 12,
+          "latency_ms": 11863.88,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "dricom-hosting.nl",
+          "servers_contacted": 6,
+          "latency_ms": 726.47,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "medipacademy.com",
+          "servers_contacted": 6,
+          "latency_ms": 734.07,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "e-daily.gr",
+          "servers_contacted": 13,
+          "latency_ms": 7156.1,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "cuteteenschoolgirlz.com",
+          "servers_contacted": 12,
+          "latency_ms": 11867.08,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "hralda.info",
+          "servers_contacted": 14,
+          "latency_ms": 1378.09,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sendrakhizonline.com",
+          "servers_contacted": 6,
+          "latency_ms": 977.98,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "hayalforum.net",
+          "servers_contacted": 12,
+          "latency_ms": 11963.46,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "begleyhutton.com",
+          "servers_contacted": 12,
+          "latency_ms": 11837.31,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "bmw-parts.ru",
+          "servers_contacted": 6,
+          "latency_ms": 1234.4,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "rterc.in",
+          "servers_contacted": 10,
+          "latency_ms": 686.46,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "monitis.com",
+          "servers_contacted": 6,
+          "latency_ms": 755.05,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        }
+      ]
+    },
+    {
+      "host": "h4",
+      "source_file": "/home/Aditya/Desktop/CN/urls_h4.txt",
+      "recursive_mode": true,
+      "total_queries": 106,
+      "successful": 41,
+      "failed": 65,
+      "success_rate_percent": 38.68,
+      "average_latency_ms": 940.21,
+      "throughput_queries_per_sec": 0.2,
+      "cache_statistics": {
+        "recursive_hits": 0,
+        "recursive_misses": 424,
+        "iterative_hits": 0,
+        "iterative_misses": 2072,
+        "total_cache_hits": 0,
+        "total_queries": 424,
+        "cache_hit_rate_percent": 0.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 0,
+        "resolved_from_network": 174,
+        "total_resolved": 174,
+        "percent_resolved_from_cache": 0.0
+      },
+      "cache_hits_this_host": 0,
+      "results": [
+        {
+          "domain": "wpad",
+          "ip": null,
+          "latency_ms": 17697.5,
+          "status": "failed"
+        },
+        {
+          "domain": "gustissimo.it",
+          "ip": "178.255.74.104",
+          "latency_ms": 1332.14,
+          "status": "success"
+        },
+        {
+          "domain": "auto-klad.ru",
+          "ip": null,
+          "latency_ms": 3534.04,
+          "status": "failed"
+        },
+        {
+          "domain": "iointegrators.com",
+          "ip": "76.120.251.25",
+          "latency_ms": 741.02,
+          "status": "success"
+        },
+        {
+          "domain": "daytimeghosthunter.com",
+          "ip": null,
+          "latency_ms": 11835.26,
+          "status": "failed"
+        },
+        {
+          "domain": "sapendolo.it",
+          "ip": null,
+          "latency_ms": 2131.33,
+          "status": "failed"
+        },
+        {
+          "domain": "saharaimport.com",
+          "ip": "176.9.116.24",
+          "latency_ms": 1069.83,
+          "status": "success"
+        },
+        {
+          "domain": "ngoanhien.com",
+          "ip": null,
+          "latency_ms": 11962.68,
+          "status": "failed"
+        },
+        {
+          "domain": "itgeorgia.co",
+          "ip": null,
+          "latency_ms": 2711.17,
+          "status": "failed"
+        },
+        {
+          "domain": "myfantasticpark.es",
+          "ip": null,
+          "latency_ms": 1267.91,
+          "status": "failed"
+        },
+        {
+          "domain": "vinayaprabha.com",
+          "ip": null,
+          "latency_ms": 11937.6,
+          "status": "failed"
+        },
+        {
+          "domain": "sitiweb.us",
+          "ip": null,
+          "latency_ms": 2675.29,
+          "status": "failed"
+        },
+        {
+          "domain": "contentremarketing.com",
+          "ip": "216.10.240.70",
+          "latency_ms": 1140.71,
+          "status": "success"
+        },
+        {
+          "domain": "videofun.me",
+          "ip": null,
+          "latency_ms": 821.53,
+          "status": "failed"
+        },
+        {
+          "domain": "breezelaw.com",
+          "ip": "76.223.54.146",
+          "latency_ms": 917.2,
+          "status": "success"
+        },
+        {
+          "domain": "ranocchi.it",
+          "ip": "52.18.99.110",
+          "latency_ms": 943.81,
+          "status": "success"
+        },
+        {
+          "domain": "22hotmail.com",
+          "ip": "20.76.201.171",
+          "latency_ms": 590.53,
+          "status": "success"
+        },
+        {
+          "domain": "ana-sofia.pt",
+          "ip": null,
+          "latency_ms": 1956.87,
+          "status": "failed"
+        },
+        {
+          "domain": "abhair.com",
+          "ip": null,
+          "latency_ms": 11849.22,
+          "status": "failed"
+        },
+        {
+          "domain": "tripladoppia.com",
+          "ip": null,
+          "latency_ms": 12446.56,
+          "status": "failed"
+        },
+        {
+          "domain": "gardeninginflorida.com",
+          "ip": "76.223.67.189",
+          "latency_ms": 963.18,
+          "status": "success"
+        },
+        {
+          "domain": "thepropertyvault.co.uk",
+          "ip": null,
+          "latency_ms": 1813.5,
+          "status": "failed"
+        },
+        {
+          "domain": "viahttps.com",
+          "ip": "64.251.0.59",
+          "latency_ms": 1193.75,
+          "status": "success"
+        },
+        {
+          "domain": "adverman.com",
+          "ip": "77.87.198.232",
+          "latency_ms": 915.01,
+          "status": "success"
+        },
+        {
+          "domain": "majorleaguelacrosse.com",
+          "ip": "104.21.87.175",
+          "latency_ms": 654.67,
+          "status": "success"
+        },
+        {
+          "domain": "rubenquinones.com",
+          "ip": "15.197.225.128",
+          "latency_ms": 920.02,
+          "status": "success"
+        },
+        {
+          "domain": "kanoon-ansar.org",
+          "ip": null,
+          "latency_ms": 943.24,
+          "status": "failed"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "ip": null,
+          "latency_ms": 17719.96,
+          "status": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "ip": null,
+          "latency_ms": 17797.62,
+          "status": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "ip": null,
+          "latency_ms": 17645.7,
+          "status": "failed"
+        },
+        {
+          "domain": "arrabonet.hu",
+          "ip": "213.163.44.68",
+          "latency_ms": 682.11,
+          "status": "success"
+        },
+        {
+          "domain": "wordai.com",
+          "ip": null,
+          "latency_ms": 11964.96,
+          "status": "failed"
+        },
+        {
+          "domain": "muhammedmusa.com",
+          "ip": null,
+          "latency_ms": 11738.35,
+          "status": "failed"
+        },
+        {
+          "domain": "freepornvideosx.com",
+          "ip": null,
+          "latency_ms": 11721.49,
+          "status": "failed"
+        },
+        {
+          "domain": "120shenbing.com",
+          "ip": null,
+          "latency_ms": 11734.59,
+          "status": "failed"
+        },
+        {
+          "domain": "onetoshop.nl",
+          "ip": null,
+          "latency_ms": 863.93,
+          "status": "failed"
+        },
+        {
+          "domain": "meditekyazilim.net",
+          "ip": "185.95.3.218",
+          "latency_ms": 1002.62,
+          "status": "success"
+        },
+        {
+          "domain": "theexoticpersian.com",
+          "ip": null,
+          "latency_ms": 11725.85,
+          "status": "failed"
+        },
+        {
+          "domain": "boh10suphanburi.com",
+          "ip": null,
+          "latency_ms": 11776.61,
+          "status": "failed"
+        },
+        {
+          "domain": "overseasmedical.com",
+          "ip": "213.123.239.55",
+          "latency_ms": 907.17,
+          "status": "success"
+        },
+        {
+          "domain": "grandcanyongrandhotel.com",
+          "ip": "142.44.217.176",
+          "latency_ms": 703.75,
+          "status": "success"
+        },
+        {
+          "domain": "isilon",
+          "ip": null,
+          "latency_ms": 17731.37,
+          "status": "failed"
+        },
+        {
+          "domain": "boneshoppe.com",
+          "ip": null,
+          "latency_ms": 11735.77,
+          "status": "failed"
+        },
+        {
+          "domain": "sweathelp.org",
+          "ip": null,
+          "latency_ms": 885.66,
+          "status": "failed"
+        },
+        {
+          "domain": "c0.pl",
+          "ip": "95.211.144.68",
+          "latency_ms": 701.52,
+          "status": "success"
+        },
+        {
+          "domain": "sipflash.com",
+          "ip": null,
+          "latency_ms": 11770.17,
+          "status": "failed"
+        },
+        {
+          "domain": "koopsmodellbau.de",
+          "ip": null,
+          "latency_ms": 2313.83,
+          "status": "failed"
+        },
+        {
+          "domain": "lespetiteschoses.com",
+          "ip": "23.227.38.65",
+          "latency_ms": 726.07,
+          "status": "success"
+        },
+        {
+          "domain": "b2b2c.ca",
+          "ip": null,
+          "latency_ms": 1190.96,
+          "status": "failed"
+        },
+        {
+          "domain": "pilsnerurquell.com",
+          "ip": null,
+          "latency_ms": 11772.92,
+          "status": "failed"
+        },
+        {
+          "domain": "medintime.ru",
+          "ip": null,
+          "latency_ms": 2502.89,
+          "status": "failed"
+        },
+        {
+          "domain": "njafe.org",
+          "ip": null,
+          "latency_ms": 935.17,
+          "status": "failed"
+        },
+        {
+          "domain": "djbarryblends.com",
+          "ip": "54.225.184.165",
+          "latency_ms": 894.31,
+          "status": "success"
+        },
+        {
+          "domain": "deine-bahn.de",
+          "ip": null,
+          "latency_ms": 2387.5,
+          "status": "failed"
+        },
+        {
+          "domain": "hackthissite.org",
+          "ip": null,
+          "latency_ms": 919.7,
+          "status": "failed"
+        },
+        {
+          "domain": "ereadz.com",
+          "ip": null,
+          "latency_ms": 11854.77,
+          "status": "failed"
+        },
+        {
+          "domain": "gurukulonline.com",
+          "ip": "76.223.54.146",
+          "latency_ms": 936.87,
+          "status": "success"
+        },
+        {
+          "domain": "sf-notifications.com",
+          "ip": null,
+          "latency_ms": 693.07,
+          "status": "failed"
+        },
+        {
+          "domain": "isatap",
+          "ip": null,
+          "latency_ms": 17453.21,
+          "status": "failed"
+        },
+        {
+          "domain": "capequilog.com",
+          "ip": null,
+          "latency_ms": 11735.55,
+          "status": "failed"
+        },
+        {
+          "domain": "greens.my",
+          "ip": null,
+          "latency_ms": 3063.4,
+          "status": "failed"
+        },
+        {
+          "domain": "2xfzy.com",
+          "ip": "23.226.181.53",
+          "latency_ms": 982.17,
+          "status": "success"
+        },
+        {
+          "domain": "magic-illusion.ru",
+          "ip": null,
+          "latency_ms": 2592.0,
+          "status": "failed"
+        },
+        {
+          "domain": "irflashgame.com",
+          "ip": null,
+          "latency_ms": 11722.73,
+          "status": "failed"
+        },
+        {
+          "domain": "solcredito.es",
+          "ip": null,
+          "latency_ms": 1142.11,
+          "status": "failed"
+        },
+        {
+          "domain": "go2jump.com",
+          "ip": null,
+          "latency_ms": 11891.64,
+          "status": "failed"
+        },
+        {
+          "domain": "millionfareast.com",
+          "ip": "72.167.243.77",
+          "latency_ms": 979.37,
+          "status": "success"
+        },
+        {
+          "domain": "msf.be",
+          "ip": null,
+          "latency_ms": 1808.58,
+          "status": "failed"
+        },
+        {
+          "domain": "cellslider.net",
+          "ip": "20.237.25.126",
+          "latency_ms": 728.95,
+          "status": "success"
+        },
+        {
+          "domain": "bhhsneproperties.com",
+          "ip": "8.43.189.250",
+          "latency_ms": 779.01,
+          "status": "success"
+        },
+        {
+          "domain": "skplus.kr",
+          "ip": null,
+          "latency_ms": 2733.84,
+          "status": "failed"
+        },
+        {
+          "domain": "empclan.com",
+          "ip": "64.26.30.251",
+          "latency_ms": 1207.7,
+          "status": "success"
+        },
+        {
+          "domain": "carolgraykennedy.com",
+          "ip": null,
+          "latency_ms": 12108.15,
+          "status": "failed"
+        },
+        {
+          "domain": "kiyimuzik.com",
+          "ip": "172.67.145.101",
+          "latency_ms": 805.75,
+          "status": "success"
+        },
+        {
+          "domain": "yunpda.com",
+          "ip": null,
+          "latency_ms": 11805.9,
+          "status": "failed"
+        },
+        {
+          "domain": "valdo.com",
+          "ip": "23.227.38.65",
+          "latency_ms": 949.33,
+          "status": "success"
+        },
+        {
+          "domain": "supportpabiomass.org",
+          "ip": null,
+          "latency_ms": 1170.81,
+          "status": "failed"
+        },
+        {
+          "domain": "roche-applied-science.com",
+          "ip": null,
+          "latency_ms": 11969.73,
+          "status": "failed"
+        },
+        {
+          "domain": "oneworldinfo.com",
+          "ip": "54.243.117.197",
+          "latency_ms": 1257.38,
+          "status": "success"
+        },
+        {
+          "domain": "7apcrshrmanila.org",
+          "ip": null,
+          "latency_ms": 1196.06,
+          "status": "failed"
+        },
+        {
+          "domain": "ilikecrochet.com",
+          "ip": "192.124.249.58",
+          "latency_ms": 860.58,
+          "status": "success"
+        },
+        {
+          "domain": "closerdiets.com",
+          "ip": "5.22.145.121",
+          "latency_ms": 735.9,
+          "status": "success"
+        },
+        {
+          "domain": "myface.com",
+          "ip": null,
+          "latency_ms": 1811.05,
+          "status": "failed"
+        },
+        {
+          "domain": "megi.cz",
+          "ip": "45.138.107.20",
+          "latency_ms": 1557.24,
+          "status": "success"
+        },
+        {
+          "domain": "pces.in",
+          "ip": null,
+          "latency_ms": 683.13,
+          "status": "failed"
+        },
+        {
+          "domain": "originalmagicart.com",
+          "ip": "15.197.225.128",
+          "latency_ms": 1107.79,
+          "status": "success"
+        },
+        {
+          "domain": "godo.co.kr",
+          "ip": null,
+          "latency_ms": 2877.1,
+          "status": "failed"
+        },
+        {
+          "domain": "ugotrelis.com",
+          "ip": null,
+          "latency_ms": 11746.55,
+          "status": "failed"
+        },
+        {
+          "domain": "alb-automobiles.com",
+          "ip": null,
+          "latency_ms": 12100.64,
+          "status": "failed"
+        },
+        {
+          "domain": "ok-magazine.ru",
+          "ip": "188.124.32.70",
+          "latency_ms": 1665.67,
+          "status": "success"
+        },
+        {
+          "domain": "wiltpr.com",
+          "ip": null,
+          "latency_ms": 11901.44,
+          "status": "failed"
+        },
+        {
+          "domain": "dmg-dental.com",
+          "ip": null,
+          "latency_ms": 11797.0,
+          "status": "failed"
+        },
+        {
+          "domain": "silkroadtours.com",
+          "ip": "23.236.62.147",
+          "latency_ms": 940.12,
+          "status": "success"
+        },
+        {
+          "domain": "rositehost.com",
+          "ip": "178.157.78.2",
+          "latency_ms": 941.74,
+          "status": "success"
+        },
+        {
+          "domain": "livescan4all.com",
+          "ip": "149.20.203.54",
+          "latency_ms": 656.45,
+          "status": "success"
+        },
+        {
+          "domain": "oberandsons.com",
+          "ip": "34.128.166.114",
+          "latency_ms": 1250.6,
+          "status": "success"
+        },
+        {
+          "domain": "celerity.com",
+          "ip": "35.188.214.201",
+          "latency_ms": 712.03,
+          "status": "success"
+        },
+        {
+          "domain": "miscellaneousheathen.com",
+          "ip": "75.127.72.229",
+          "latency_ms": 906.94,
+          "status": "success"
+        },
+        {
+          "domain": "rolflouisville.com",
+          "ip": "208.88.75.191",
+          "latency_ms": 675.15,
+          "status": "success"
+        },
+        {
+          "domain": "jacquelinemertz.ch",
+          "ip": null,
+          "latency_ms": 1686.95,
+          "status": "failed"
+        },
+        {
+          "domain": "gaplex.biz",
+          "ip": null,
+          "latency_ms": 1671.34,
+          "status": "failed"
+        },
+        {
+          "domain": "frasesdemotivacao.net",
+          "ip": null,
+          "latency_ms": 11916.71,
+          "status": "failed"
+        },
+        {
+          "domain": "divefishhouse.com",
+          "ip": null,
+          "latency_ms": 11788.35,
+          "status": "failed"
+        },
+        {
+          "domain": "stark.dk",
+          "ip": null,
+          "latency_ms": 2059.19,
+          "status": "failed"
+        },
+        {
+          "domain": "xxx-muschis.de",
+          "ip": null,
+          "latency_ms": 2359.25,
+          "status": "failed"
+        },
+        {
+          "domain": "florenseusa.com",
+          "ip": "34.95.203.179",
+          "latency_ms": 912.59,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "wpad",
+          "servers_contacted": 23,
+          "latency_ms": 17697.48,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gustissimo.it",
+          "servers_contacted": 6,
+          "latency_ms": 1332.12,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "auto-klad.ru",
+          "servers_contacted": 12,
+          "latency_ms": 3534.03,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "iointegrators.com",
+          "servers_contacted": 6,
+          "latency_ms": 741.01,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "daytimeghosthunter.com",
+          "servers_contacted": 12,
+          "latency_ms": 11835.25,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sapendolo.it",
+          "servers_contacted": 14,
+          "latency_ms": 2131.31,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "saharaimport.com",
+          "servers_contacted": 6,
+          "latency_ms": 1069.82,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ngoanhien.com",
+          "servers_contacted": 12,
+          "latency_ms": 11962.67,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "itgeorgia.co",
+          "servers_contacted": 10,
+          "latency_ms": 2711.16,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "myfantasticpark.es",
+          "servers_contacted": 10,
+          "latency_ms": 1267.89,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "vinayaprabha.com",
+          "servers_contacted": 12,
+          "latency_ms": 11937.58,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sitiweb.us",
+          "servers_contacted": 18,
+          "latency_ms": 2675.27,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "contentremarketing.com",
+          "servers_contacted": 6,
+          "latency_ms": 1140.7,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "videofun.me",
+          "servers_contacted": 12,
+          "latency_ms": 821.51,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "breezelaw.com",
+          "servers_contacted": 6,
+          "latency_ms": 917.18,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ranocchi.it",
+          "servers_contacted": 6,
+          "latency_ms": 943.8,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "22hotmail.com",
+          "servers_contacted": 6,
+          "latency_ms": 590.52,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "ana-sofia.pt",
+          "servers_contacted": 16,
+          "latency_ms": 1956.85,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "abhair.com",
+          "servers_contacted": 12,
+          "latency_ms": 11849.21,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "tripladoppia.com",
+          "servers_contacted": 12,
+          "latency_ms": 12446.54,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gardeninginflorida.com",
+          "servers_contacted": 6,
+          "latency_ms": 963.17,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "thepropertyvault.co.uk",
+          "servers_contacted": 16,
+          "latency_ms": 1813.47,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "viahttps.com",
+          "servers_contacted": 6,
+          "latency_ms": 1193.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "adverman.com",
+          "servers_contacted": 6,
+          "latency_ms": 915.0,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "majorleaguelacrosse.com",
+          "servers_contacted": 6,
+          "latency_ms": 654.65,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "rubenquinones.com",
+          "servers_contacted": 6,
+          "latency_ms": 919.99,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "kanoon-ansar.org",
+          "servers_contacted": 14,
+          "latency_ms": 943.21,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gmxwnlajnl",
+          "servers_contacted": 23,
+          "latency_ms": 17719.94,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "djoncbjcmv",
+          "servers_contacted": 23,
+          "latency_ms": 17797.61,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "mptrmkwart",
+          "servers_contacted": 23,
+          "latency_ms": 17645.69,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "arrabonet.hu",
+          "servers_contacted": 6,
+          "latency_ms": 682.08,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "wordai.com",
+          "servers_contacted": 12,
+          "latency_ms": 11964.94,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "muhammedmusa.com",
+          "servers_contacted": 12,
+          "latency_ms": 11738.33,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "freepornvideosx.com",
+          "servers_contacted": 12,
+          "latency_ms": 11721.47,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "120shenbing.com",
+          "servers_contacted": 12,
+          "latency_ms": 11734.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "onetoshop.nl",
+          "servers_contacted": 8,
+          "latency_ms": 863.91,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "meditekyazilim.net",
+          "servers_contacted": 6,
+          "latency_ms": 1002.6,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "theexoticpersian.com",
+          "servers_contacted": 12,
+          "latency_ms": 11725.83,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "boh10suphanburi.com",
+          "servers_contacted": 12,
+          "latency_ms": 11776.59,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "overseasmedical.com",
+          "servers_contacted": 6,
+          "latency_ms": 907.15,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "grandcanyongrandhotel.com",
+          "servers_contacted": 6,
+          "latency_ms": 703.74,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "isilon",
+          "servers_contacted": 23,
+          "latency_ms": 17731.34,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "boneshoppe.com",
+          "servers_contacted": 12,
+          "latency_ms": 11735.75,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "sweathelp.org",
+          "servers_contacted": 14,
+          "latency_ms": 885.64,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "c0.pl",
+          "servers_contacted": 6,
+          "latency_ms": 701.51,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "sipflash.com",
+          "servers_contacted": 12,
+          "latency_ms": 11770.15,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "koopsmodellbau.de",
+          "servers_contacted": 14,
+          "latency_ms": 2313.82,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "lespetiteschoses.com",
+          "servers_contacted": 6,
+          "latency_ms": 726.05,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "b2b2c.ca",
+          "servers_contacted": 10,
+          "latency_ms": 1190.92,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "pilsnerurquell.com",
+          "servers_contacted": 12,
+          "latency_ms": 11772.89,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "medintime.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2502.87,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "njafe.org",
+          "servers_contacted": 14,
+          "latency_ms": 934.82,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "djbarryblends.com",
+          "servers_contacted": 6,
+          "latency_ms": 894.29,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "deine-bahn.de",
+          "servers_contacted": 14,
+          "latency_ms": 2387.48,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "hackthissite.org",
+          "servers_contacted": 14,
+          "latency_ms": 919.68,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ereadz.com",
+          "servers_contacted": 12,
+          "latency_ms": 11854.75,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gurukulonline.com",
+          "servers_contacted": 6,
+          "latency_ms": 936.85,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "sf-notifications.com",
+          "servers_contacted": 6,
+          "latency_ms": 693.05,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "isatap",
+          "servers_contacted": 23,
+          "latency_ms": 17453.18,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "capequilog.com",
+          "servers_contacted": 12,
+          "latency_ms": 11735.53,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "greens.my",
+          "servers_contacted": 18,
+          "latency_ms": 3063.38,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "2xfzy.com",
+          "servers_contacted": 5,
+          "latency_ms": 982.16,
+          "resolved_from_cache": false,
+          "resolution_method": "recursive"
+        },
+        {
+          "domain": "magic-illusion.ru",
+          "servers_contacted": 12,
+          "latency_ms": 2591.99,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "irflashgame.com",
+          "servers_contacted": 12,
+          "latency_ms": 11722.71,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "solcredito.es",
+          "servers_contacted": 10,
+          "latency_ms": 1142.09,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "go2jump.com",
+          "servers_contacted": 12,
+          "latency_ms": 11891.63,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "millionfareast.com",
+          "servers_contacted": 6,
+          "latency_ms": 979.36,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "msf.be",
+          "servers_contacted": 14,
+          "latency_ms": 1808.56,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "cellslider.net",
+          "servers_contacted": 6,
+          "latency_ms": 728.94,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "bhhsneproperties.com",
+          "servers_contacted": 6,
+          "latency_ms": 778.99,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "skplus.kr",
+          "servers_contacted": 14,
+          "latency_ms": 2733.83,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "empclan.com",
+          "servers_contacted": 6,
+          "latency_ms": 1207.68,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "carolgraykennedy.com",
+          "servers_contacted": 12,
+          "latency_ms": 12108.13,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "kiyimuzik.com",
+          "servers_contacted": 6,
+          "latency_ms": 805.73,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "yunpda.com",
+          "servers_contacted": 12,
+          "latency_ms": 11805.89,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "valdo.com",
+          "servers_contacted": 6,
+          "latency_ms": 949.31,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "supportpabiomass.org",
+          "servers_contacted": 14,
+          "latency_ms": 1170.79,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "roche-applied-science.com",
+          "servers_contacted": 12,
+          "latency_ms": 11969.7,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "oneworldinfo.com",
+          "servers_contacted": 6,
+          "latency_ms": 1257.37,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "7apcrshrmanila.org",
+          "servers_contacted": 14,
+          "latency_ms": 1196.04,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ilikecrochet.com",
+          "servers_contacted": 6,
+          "latency_ms": 860.57,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "closerdiets.com",
+          "servers_contacted": 6,
+          "latency_ms": 735.89,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "myface.com",
+          "servers_contacted": 16,
+          "latency_ms": 1810.92,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "megi.cz",
+          "servers_contacted": 6,
+          "latency_ms": 1557.22,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "pces.in",
+          "servers_contacted": 10,
+          "latency_ms": 683.12,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "originalmagicart.com",
+          "servers_contacted": 6,
+          "latency_ms": 1107.77,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "godo.co.kr",
+          "servers_contacted": 14,
+          "latency_ms": 2876.95,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ugotrelis.com",
+          "servers_contacted": 12,
+          "latency_ms": 11746.53,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "alb-automobiles.com",
+          "servers_contacted": 12,
+          "latency_ms": 12100.63,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "ok-magazine.ru",
+          "servers_contacted": 8,
+          "latency_ms": 1665.64,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "wiltpr.com",
+          "servers_contacted": 12,
+          "latency_ms": 11901.43,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "dmg-dental.com",
+          "servers_contacted": 12,
+          "latency_ms": 11796.99,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "silkroadtours.com",
+          "servers_contacted": 6,
+          "latency_ms": 940.1,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "rositehost.com",
+          "servers_contacted": 6,
+          "latency_ms": 941.72,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "livescan4all.com",
+          "servers_contacted": 6,
+          "latency_ms": 656.44,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "oberandsons.com",
+          "servers_contacted": 6,
+          "latency_ms": 1250.05,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "celerity.com",
+          "servers_contacted": 6,
+          "latency_ms": 712.01,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "miscellaneousheathen.com",
+          "servers_contacted": 6,
+          "latency_ms": 906.92,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "rolflouisville.com",
+          "servers_contacted": 6,
+          "latency_ms": 675.13,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "jacquelinemertz.ch",
+          "servers_contacted": 12,
+          "latency_ms": 1686.93,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "gaplex.biz",
+          "servers_contacted": 18,
+          "latency_ms": 1671.33,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "frasesdemotivacao.net",
+          "servers_contacted": 12,
+          "latency_ms": 11916.7,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "divefishhouse.com",
+          "servers_contacted": 12,
+          "latency_ms": 11788.33,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "stark.dk",
+          "servers_contacted": 14,
+          "latency_ms": 2059.17,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "xxx-muschis.de",
+          "servers_contacted": 14,
+          "latency_ms": 2359.23,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "florenseusa.com",
+          "servers_contacted": 6,
+          "latency_ms": 912.58,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,911 @@
+{
+  "timestamp": "2025-10-26 21:42:40",
+  "part": "F - Caching Demo with Real URLs",
+  "summary": {
+    "total_queries": 60,
+    "total_successful": 44,
+    "total_failed": 16,
+    "average_latency_ms": 199.24,
+    "average_throughput_qps": 1.88,
+    "percent_resolved_from_cache": 70.45
+  },
+  "hosts": [
+    {
+      "host": "h1",
+      "total_queries": 15,
+      "successful": 11,
+      "failed": 4,
+      "success_rate_percent": 73.33,
+      "average_latency_ms": 601.02,
+      "throughput_queries_per_sec": 0.28,
+      "cache_statistics": {
+        "recursive_hits": 1,
+        "recursive_misses": 14,
+        "iterative_hits": 0,
+        "iterative_misses": 50,
+        "total_cache_hits": 1,
+        "total_queries": 15,
+        "cache_hit_rate_percent": 6.67
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 1,
+        "resolved_from_network": 10,
+        "total_resolved": 11,
+        "percent_resolved_from_cache": 9.09
+      },
+      "cache_hits_this_host": 1,
+      "results": [
+        {
+          "domain": "amazon.com",
+          "ip": "98.87.170.74",
+          "latency_ms": 652.63,
+          "status": "success"
+        },
+        {
+          "domain": "youtube.com",
+          "ip": "142.250.183.110",
+          "latency_ms": 579.92,
+          "status": "success"
+        },
+        {
+          "domain": "cnn.com",
+          "ip": "151.101.67.5",
+          "latency_ms": 618.41,
+          "status": "success"
+        },
+        {
+          "domain": "apple.com",
+          "ip": "17.253.144.10",
+          "latency_ms": 631.79,
+          "status": "success"
+        },
+        {
+          "domain": "invalid.example.com",
+          "ip": null,
+          "latency_ms": 11802.19,
+          "status": "failed"
+        },
+        {
+          "domain": "twitter.com",
+          "ip": null,
+          "latency_ms": 12258.82,
+          "status": "failed"
+        },
+        {
+          "domain": "netflix.com",
+          "ip": "18.200.8.190",
+          "latency_ms": 622.27,
+          "status": "success"
+        },
+        {
+          "domain": "amazon.com",
+          "ip": "98.87.170.74",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "microsoft.com",
+          "ip": "13.107.246.68",
+          "latency_ms": 597.33,
+          "status": "success"
+        },
+        {
+          "domain": "nonexistent123.com",
+          "ip": null,
+          "latency_ms": 11677.53,
+          "status": "failed"
+        },
+        {
+          "domain": "google.com",
+          "ip": "142.250.192.78",
+          "latency_ms": 574.02,
+          "status": "success"
+        },
+        {
+          "domain": "example.com",
+          "ip": null,
+          "latency_ms": 12127.34,
+          "status": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "ip": "103.102.166.224",
+          "latency_ms": 1059.98,
+          "status": "success"
+        },
+        {
+          "domain": "github.com",
+          "ip": "20.207.73.82",
+          "latency_ms": 635.89,
+          "status": "success"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "ip": "104.18.32.7",
+          "latency_ms": 638.93,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "amazon.com",
+          "servers_contacted": 6,
+          "latency_ms": 652.62,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "youtube.com",
+          "servers_contacted": 6,
+          "latency_ms": 579.91,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "cnn.com",
+          "servers_contacted": 6,
+          "latency_ms": 618.41,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "apple.com",
+          "servers_contacted": 6,
+          "latency_ms": 631.77,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "invalid.example.com",
+          "servers_contacted": 12,
+          "latency_ms": 11802.17,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "twitter.com",
+          "servers_contacted": 12,
+          "latency_ms": 12258.8,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "netflix.com",
+          "servers_contacted": 6,
+          "latency_ms": 622.26,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "amazon.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "microsoft.com",
+          "servers_contacted": 6,
+          "latency_ms": 596.91,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "nonexistent123.com",
+          "servers_contacted": 12,
+          "latency_ms": 11677.52,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "google.com",
+          "servers_contacted": 6,
+          "latency_ms": 574.0,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "example.com",
+          "servers_contacted": 12,
+          "latency_ms": 12127.32,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "servers_contacted": 6,
+          "latency_ms": 1059.97,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "github.com",
+          "servers_contacted": 6,
+          "latency_ms": 635.88,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "servers_contacted": 6,
+          "latency_ms": 638.91,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        }
+      ]
+    },
+    {
+      "host": "h2",
+      "total_queries": 15,
+      "successful": 10,
+      "failed": 5,
+      "success_rate_percent": 66.67,
+      "average_latency_ms": 195.93,
+      "throughput_queries_per_sec": 1.48,
+      "cache_statistics": {
+        "recursive_hits": 8,
+        "recursive_misses": 22,
+        "iterative_hits": 40,
+        "iterative_misses": 64,
+        "total_cache_hits": 48,
+        "total_queries": 30,
+        "cache_hit_rate_percent": 160.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 8,
+        "resolved_from_network": 13,
+        "total_resolved": 21,
+        "percent_resolved_from_cache": 38.1
+      },
+      "cache_hits_this_host": 7,
+      "results": [
+        {
+          "domain": "bbc.com",
+          "ip": "151.101.0.81",
+          "latency_ms": 733.93,
+          "status": "success"
+        },
+        {
+          "domain": "cnn.com",
+          "ip": "151.101.67.5",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "nonexistent123.com",
+          "ip": null,
+          "latency_ms": 1436.6,
+          "status": "failed"
+        },
+        {
+          "domain": "microsoft.com",
+          "ip": "13.107.246.68",
+          "latency_ms": 0.02,
+          "status": "success"
+        },
+        {
+          "domain": "nytimes.com",
+          "ip": "151.101.193.164",
+          "latency_ms": 623.12,
+          "status": "success"
+        },
+        {
+          "domain": "apple.com",
+          "ip": "17.253.144.10",
+          "latency_ms": 0.02,
+          "status": "success"
+        },
+        {
+          "domain": "facebook.com",
+          "ip": "57.144.242.1",
+          "latency_ms": 602.19,
+          "status": "success"
+        },
+        {
+          "domain": "twitter.com",
+          "ip": null,
+          "latency_ms": 1429.97,
+          "status": "failed"
+        },
+        {
+          "domain": "invalid.example.com",
+          "ip": null,
+          "latency_ms": 1390.14,
+          "status": "failed"
+        },
+        {
+          "domain": "fake-domain.xyz",
+          "ip": null,
+          "latency_ms": 2499.55,
+          "status": "failed"
+        },
+        {
+          "domain": "google.com",
+          "ip": "142.250.192.78",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "example.com",
+          "ip": null,
+          "latency_ms": 1400.31,
+          "status": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "ip": "103.102.166.224",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "github.com",
+          "ip": "20.207.73.82",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "ip": "104.18.32.7",
+          "latency_ms": 0.0,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "bbc.com",
+          "servers_contacted": 6,
+          "latency_ms": 733.92,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "cnn.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "nonexistent123.com",
+          "servers_contacted": 10,
+          "latency_ms": 1436.58,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "microsoft.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "nytimes.com",
+          "servers_contacted": 6,
+          "latency_ms": 623.09,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "apple.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "facebook.com",
+          "servers_contacted": 6,
+          "latency_ms": 602.18,
+          "resolved_from_cache": false,
+          "resolution_method": "iterative_fallback"
+        },
+        {
+          "domain": "twitter.com",
+          "servers_contacted": 10,
+          "latency_ms": 1429.96,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "invalid.example.com",
+          "servers_contacted": 10,
+          "latency_ms": 1390.14,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "fake-domain.xyz",
+          "servers_contacted": 10,
+          "latency_ms": 2499.54,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "google.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "example.com",
+          "servers_contacted": 10,
+          "latency_ms": 1400.3,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "github.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        }
+      ]
+    },
+    {
+      "host": "h3",
+      "total_queries": 15,
+      "successful": 12,
+      "failed": 3,
+      "success_rate_percent": 80.0,
+      "average_latency_ms": 0.0,
+      "throughput_queries_per_sec": 3.58,
+      "cache_statistics": {
+        "recursive_hits": 20,
+        "recursive_misses": 25,
+        "iterative_hits": 70,
+        "iterative_misses": 64,
+        "total_cache_hits": 90,
+        "total_queries": 45,
+        "cache_hit_rate_percent": 200.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 20,
+        "resolved_from_network": 13,
+        "total_resolved": 33,
+        "percent_resolved_from_cache": 60.61
+      },
+      "cache_hits_this_host": 12,
+      "results": [
+        {
+          "domain": "amazon.com",
+          "ip": "98.87.170.74",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "youtube.com",
+          "ip": "142.250.183.110",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "facebook.com",
+          "ip": "57.144.242.1",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "nytimes.com",
+          "ip": "151.101.193.164",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "microsoft.com",
+          "ip": "13.107.246.68",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "twitter.com",
+          "ip": null,
+          "latency_ms": 1375.47,
+          "status": "failed"
+        },
+        {
+          "domain": "invalid.example.com",
+          "ip": null,
+          "latency_ms": 1406.31,
+          "status": "failed"
+        },
+        {
+          "domain": "apple.com",
+          "ip": "17.253.144.10",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "bbc.com",
+          "ip": "151.101.0.81",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "netflix.com",
+          "ip": "18.200.8.190",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "google.com",
+          "ip": "142.250.192.78",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "example.com",
+          "ip": null,
+          "latency_ms": 1404.84,
+          "status": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "ip": "103.102.166.224",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "github.com",
+          "ip": "20.207.73.82",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "ip": "104.18.32.7",
+          "latency_ms": 0.0,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "amazon.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "youtube.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "facebook.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "nytimes.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "microsoft.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "twitter.com",
+          "servers_contacted": 10,
+          "latency_ms": 1375.46,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "invalid.example.com",
+          "servers_contacted": 10,
+          "latency_ms": 1406.27,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "apple.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "bbc.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "netflix.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "google.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "example.com",
+          "servers_contacted": 10,
+          "latency_ms": 1404.83,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "github.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        }
+      ]
+    },
+    {
+      "host": "h4",
+      "total_queries": 15,
+      "successful": 11,
+      "failed": 4,
+      "success_rate_percent": 73.33,
+      "average_latency_ms": 0.02,
+      "throughput_queries_per_sec": 2.18,
+      "cache_statistics": {
+        "recursive_hits": 31,
+        "recursive_misses": 29,
+        "iterative_hits": 110,
+        "iterative_misses": 64,
+        "total_cache_hits": 141,
+        "total_queries": 60,
+        "cache_hit_rate_percent": 235.0
+      },
+      "resolution_statistics": {
+        "resolved_from_cache": 31,
+        "resolved_from_network": 13,
+        "total_resolved": 44,
+        "percent_resolved_from_cache": 70.45
+      },
+      "cache_hits_this_host": 11,
+      "results": [
+        {
+          "domain": "amazon.com",
+          "ip": "98.87.170.74",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "apple.com",
+          "ip": "17.253.144.10",
+          "latency_ms": 0.0,
+          "status": "success"
+        },
+        {
+          "domain": "cnn.com",
+          "ip": null,
+          "latency_ms": 1406.61,
+          "status": "failed"
+        },
+        {
+          "domain": "netflix.com",
+          "ip": "18.200.8.190",
+          "latency_ms": 0.02,
+          "status": "success"
+        },
+        {
+          "domain": "twitter.com",
+          "ip": null,
+          "latency_ms": 1411.49,
+          "status": "failed"
+        },
+        {
+          "domain": "nytimes.com",
+          "ip": "151.101.193.164",
+          "latency_ms": 0.02,
+          "status": "success"
+        },
+        {
+          "domain": "bbc.com",
+          "ip": "151.101.0.81",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "youtube.com",
+          "ip": "142.250.183.110",
+          "latency_ms": 0.08,
+          "status": "success"
+        },
+        {
+          "domain": "microsoft.com",
+          "ip": "13.107.246.68",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "fake-domain.xyz",
+          "ip": null,
+          "latency_ms": 2640.99,
+          "status": "failed"
+        },
+        {
+          "domain": "google.com",
+          "ip": "142.250.192.78",
+          "latency_ms": 0.02,
+          "status": "success"
+        },
+        {
+          "domain": "example.com",
+          "ip": null,
+          "latency_ms": 1429.82,
+          "status": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "ip": "103.102.166.224",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "github.com",
+          "ip": "20.207.73.82",
+          "latency_ms": 0.01,
+          "status": "success"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "ip": "104.18.32.7",
+          "latency_ms": 0.0,
+          "status": "success"
+        }
+      ],
+      "query_stats": [
+        {
+          "domain": "amazon.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "apple.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "cnn.com",
+          "servers_contacted": 10,
+          "latency_ms": 1406.6,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "netflix.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "twitter.com",
+          "servers_contacted": 10,
+          "latency_ms": 1411.46,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "nytimes.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "bbc.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "youtube.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "microsoft.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "fake-domain.xyz",
+          "servers_contacted": 10,
+          "latency_ms": 2640.98,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "google.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "example.com",
+          "servers_contacted": 10,
+          "latency_ms": 1429.82,
+          "resolved_from_cache": false,
+          "resolution_method": "failed"
+        },
+        {
+          "domain": "wikipedia.org",
+          "servers_contacted": 0,
+          "latency_ms": 0.01,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "github.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        },
+        {
+          "domain": "stackoverflow.com",
+          "servers_contacted": 0,
+          "latency_ms": 0.0,
+          "resolved_from_cache": true,
+          "resolution_method": "cache"
+        }
+      ]
+    }
+  ],
+  "notes": "15 URLs/host: 10 unique mixed, 5 shared commons; exact E resolver used"
+}
